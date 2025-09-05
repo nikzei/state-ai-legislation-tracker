@@ -1,7 +1,7 @@
 import requests
-import pandas as pd
 import json
 import os
+import csv
 from datetime import datetime
 
 def fetch_ai_legislation():
@@ -27,7 +27,7 @@ def fetch_ai_legislation():
         params = {
             'q': term,
             'session': '2025',
-            'per_page': 100,
+            'per_page': 50,
             'include': 'abstracts,actions,sources'
         }
         
@@ -85,8 +85,15 @@ def process_legislation_data():
         return
     
     processed_data = []
+    seen_bills = set()  # To remove duplicates
     
     for bill in bills:
+        # Create unique identifier
+        bill_key = f"{bill.get('jurisdiction', {}).get('name', '')}_{bill.get('identifier', '')}"
+        if bill_key in seen_bills:
+            continue
+        seen_bills.add(bill_key)
+        
         # Get the latest action for status
         latest_action = ""
         if bill.get('actions'):
@@ -111,29 +118,49 @@ def process_legislation_data():
         
         processed_data.append(processed_bill)
     
-    # Convert to DataFrame and save
-    df = pd.DataFrame(processed_data)
-    
-    # Remove duplicates based on State and Bill_ID
-    df = df.drop_duplicates(subset=['State', 'Bill_ID'])
-    
     # Sort by State, then by Bill_ID
-    df = df.sort_values(['State', 'Bill_ID'])
+    processed_data.sort(key=lambda x: (x['State'], x['Bill_ID']))
+    
+    # Create data directory
+    os.makedirs('data', exist_ok=True)
     
     # Save to CSV
-    os.makedirs('data', exist_ok=True)
-    df.to_csv('data/ai_legislation_bills.csv', index=False)
+    fieldnames = ['State', 'Bill_ID', 'Title', 'Status', 'Category', 'Session', 'Updated', 'URL', 'Last_Checked']
     
-    print(f"Processed {len(df)} bills")
+    with open('data/ai_legislation_bills.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(processed_data)
+    
+    print(f"Processed {len(processed_data)} bills")
     print(f"Data saved to data/ai_legislation_bills.csv")
     
     # Create summary by state
-    summary = df.groupby('State').agg({
-        'Bill_ID': 'count',
-        'Category': lambda x: '; '.join(x.unique())
-    }).rename(columns={'Bill_ID': 'Bill_Count', 'Category': 'Categories'}).reset_index()
+    state_counts = {}
+    state_categories = {}
     
-    summary.to_csv('data/ai_legislation_summary.csv', index=False)
+    for bill in processed_data:
+        state = bill['State']
+        if state not in state_counts:
+            state_counts[state] = 0
+            state_categories[state] = set()
+        state_counts[state] += 1
+        if bill['Category']:
+            state_categories[state].update(bill['Category'].split('; '))
+    
+    summary_data = []
+    for state in sorted(state_counts.keys()):
+        summary_data.append({
+            'State': state,
+            'Bill_Count': state_counts[state],
+            'Categories': '; '.join(sorted(state_categories[state]))
+        })
+    
+    with open('data/ai_legislation_summary.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=['State', 'Bill_Count', 'Categories'])
+        writer.writeheader()
+        writer.writerows(summary_data)
+    
     print(f"Summary saved to data/ai_legislation_summary.csv")
 
 if __name__ == "__main__":
