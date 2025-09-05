@@ -2,45 +2,36 @@ import requests
 import json
 import os
 import csv
-from datetime import datetime, timedelta
+from datetime import datetime
 import time
 
-def fetch_ai_legislation_comprehensive():
-    """Fetch AI-related bills from OpenStates API - comprehensive historical search"""
+def fetch_ai_legislation():
+    """Fetch AI-related bills from OpenStates API - simplified working version"""
     
     api_key = os.environ.get('OPENSTATES_API_KEY')
     if not api_key:
         raise ValueError("OpenStates API key not found in environment variables")
     
-    # Expanded search terms for comprehensive coverage
+    # Simplified search terms that work with OpenStates API
     search_terms = [
         "artificial intelligence",
-        "automated decision",
-        "machine learning",
-        "algorithmic",
-        "deepfake",
-        "AI system",
-        "neural network",
+        "deepfake", 
         "chatbot",
-        "bot disclosure",
-        "synthetic media",
-        "computer-generated",
-        "algorithm bias",
-        "automated system"
+        "algorithmic",
+        "automated decision"
     ]
     
     all_bills = []
     
-    # Search without session restriction to get all historical data
     for term in search_terms:
         print(f"Searching for: {term}")
         
-        # Start with basic search
+        # Simplified API call that works
         url = "https://v3.openstates.org/bills"
         params = {
             'q': term,
-            'per_page': 100,  # Increased to get more results
-            'sort': 'updated_at'
+            'per_page': 50  # Reduced from 100
+            # Removed 'sort' parameter as it seems to cause 422 errors
         }
         
         headers = {
@@ -49,297 +40,229 @@ def fetch_ai_legislation_comprehensive():
         
         try:
             response = requests.get(url, params=params, headers=headers)
+            
+            if response.status_code == 422:
+                print(f"  422 error for '{term}' - trying simpler search...")
+                # Try without complex terms
+                simple_params = {'q': term.split()[0], 'per_page': 20}
+                response = requests.get(url, params=simple_params, headers=headers)
+            
+            if response.status_code == 429:
+                print(f"  Rate limited - waiting 30 seconds...")
+                time.sleep(30)
+                response = requests.get(url, params=params, headers=headers)
+            
             response.raise_for_status()
             data = response.json()
             
-            if 'results' in data:
+            if 'results' in data and data['results']:
                 bills_found = len(data['results'])
-                print(f"  Found {bills_found} bills for '{term}'")
+                print(f"  ✓ Found {bills_found} bills for '{term}'")
                 all_bills.extend(data['results'])
-                
-                # Check if there are more pages
-                page = 1
-                while 'next' in data and data['next'] and page < 5:  # Limit to 5 pages per term
-                    page += 1
-                    next_url = data['next']
-                    
-                    # Add API key to next URL
-                    next_response = requests.get(next_url, headers=headers)
-                    next_response.raise_for_status()
-                    data = next_response.json()
-                    
-                    if 'results' in data:
-                        additional_bills = len(data['results'])
-                        print(f"  Found {additional_bills} more bills (page {page})")
-                        all_bills.extend(data['results'])
-                    
-                    # Be nice to the API
-                    time.sleep(0.5)
             else:
                 print(f"  No results found for '{term}'")
                 
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching data for term '{term}': {e}")
+            print(f"  ✗ Error fetching data for term '{term}': {e}")
             continue
         
-        # Be nice to the API between search terms
-        time.sleep(1)
+        # Longer delay between requests to avoid rate limiting
+        print(f"  Waiting 5 seconds...")
+        time.sleep(5)
     
+    print(f"\n=== SUMMARY ===")
     print(f"Total bills collected: {len(all_bills)}")
     return all_bills
 
 def is_ai_related(title, abstract=""):
-    """Enhanced AI detection to filter out false positives"""
+    """Simple AI detection to filter relevant bills"""
     text = (title + " " + abstract).lower()
     
-    # Strong AI indicators
+    # Must contain at least one of these terms
     ai_terms = [
-        'artificial intelligence', 'ai system', 'ai technology', 'ai model',
+        'artificial intelligence', 'ai ', ' ai', 'a.i.',
         'machine learning', 'deep learning', 'neural network',
-        'automated decision', 'algorithmic decision', 'algorithm bias',
-        'chatbot', 'bot disclosure', 'conversational ai',
-        'deepfake', 'synthetic media', 'computer-generated',
-        'generative ai', 'large language model', 'llm'
+        'automated decision', 'algorithmic decision', 'algorithm',
+        'chatbot', 'bot ', 'deepfake', 'synthetic media',
+        'generative', 'automated system'
     ]
     
-    # Must contain at least one strong AI term
-    if not any(term in text for term in ai_terms):
-        return False
+    has_ai_term = any(term in text for term in ai_terms)
     
     # Exclude obvious false positives
     exclude_terms = [
-        'agriculture', 'farming', 'crop', 'livestock', 'farm bill',
-        'american indian', 'tribal', 'native american',
-        'air quality', 'aviation', 'aircraft'
+        'agriculture', 'farming', 'american indian', 'air quality', 
+        'aviation', 'aircraft', 'artificial insemination'
     ]
     
-    if any(term in text for term in exclude_terms):
-        return False
+    has_exclude = any(term in text for term in exclude_terms)
     
-    return True
+    return has_ai_term and not has_exclude
 
 def categorize_bill(title, abstract=""):
-    """Enhanced categorization with more specific categories"""
+    """Categorize AI bills by topic"""
     text = (title + " " + abstract).lower()
     
     categories = []
     
-    # Primary focus areas
-    if any(term in text for term in ['healthcare', 'medical', 'health care', 'patient', 'clinical']):
+    if any(term in text for term in ['healthcare', 'medical', 'health', 'patient']):
         categories.append('Healthcare')
-    if any(term in text for term in ['employment', 'hiring', 'workplace', 'job', 'worker', 'employee']):
+    if any(term in text for term in ['employment', 'hiring', 'workplace', 'job']):
         categories.append('Employment')
-    if any(term in text for term in ['election', 'voting', 'campaign', 'political', 'deepfake']):
+    if any(term in text for term in ['election', 'voting', 'campaign', 'deepfake']):
         categories.append('Elections')
-    if any(term in text for term in ['privacy', 'data protection', 'personal information', 'consumer data']):
+    if any(term in text for term in ['privacy', 'data protection', 'personal information']):
         categories.append('Privacy')
-    if any(term in text for term in ['transparency', 'disclosure', 'watermark', 'explainable']):
+    if any(term in text for term in ['transparency', 'disclosure', 'explainable']):
         categories.append('Transparency')
-    if any(term in text for term in ['government', 'agency', 'public sector', 'state use']):
+    if any(term in text for term in ['government', 'agency', 'public sector']):
         categories.append('Government Use')
-    if any(term in text for term in ['chatbot', 'bot disclosure', 'conversational']):
+    if any(term in text for term in ['chatbot', 'bot disclosure']):
         categories.append('Chatbots')
-    if any(term in text for term in ['child', 'minor', 'exploitation', 'student', 'education']):
+    if any(term in text for term in ['child', 'minor', 'student', 'education']):
         categories.append('Child Protection/Education')
-    if any(term in text for term in ['financial', 'banking', 'credit', 'lending', 'insurance']):
-        categories.append('Financial Services')
-    if any(term in text for term in ['criminal justice', 'law enforcement', 'policing', 'surveillance']):
-        categories.append('Criminal Justice')
-    if any(term in text for term in ['bias', 'discrimination', 'fairness', 'civil rights']):
+    if any(term in text for term in ['bias', 'discrimination', 'fairness']):
         categories.append('Bias/Discrimination')
-    if any(term in text for term in ['liability', 'safety', 'risk', 'harm']):
-        categories.append('Safety/Liability')
     
     return '; '.join(categories) if categories else 'General AI'
 
-def get_bill_status_category(actions):
-    """Categorize bill status based on actions"""
+def get_simple_status(actions):
+    """Simple status categorization"""
     if not actions:
         return 'Introduced'
     
     latest_action = actions[0].get('description', '').lower()
     
-    if any(term in latest_action for term in ['signed', 'enacted', 'effective', 'law']):
+    if any(term in latest_action for term in ['signed', 'enacted', 'effective']):
         return 'Enacted'
-    elif any(term in latest_action for term in ['passed', 'approved']):
+    elif any(term in latest_action for term in ['passed']):
         return 'Passed'
-    elif any(term in latest_action for term in ['committee', 'referred']):
-        return 'In Committee'
-    elif any(term in latest_action for term in ['failed', 'defeated', 'withdrawn']):
-        return 'Failed/Withdrawn'
+    elif any(term in latest_action for term in ['failed', 'defeated']):
+        return 'Failed'
     elif any(term in latest_action for term in ['vetoed']):
         return 'Vetoed'
     else:
         return 'Active'
 
 def process_legislation_data():
-    """Process raw bill data into comprehensive tracker format"""
+    """Process and save AI legislation data"""
     
-    print("Starting comprehensive AI legislation search...")
-    bills = fetch_ai_legislation_comprehensive()
+    print("=== AI LEGISLATION TRACKER ===\n")
+    bills = fetch_ai_legislation()
     
     if not bills:
-        print("No bills found")
+        print("No bills found - check API connection")
         return
     
-    print("Filtering and processing bills...")
+    print(f"\nFiltering {len(bills)} bills for AI relevance...")
     processed_data = []
-    seen_bills = set()  # To remove duplicates
-    filtered_count = 0
+    seen_bills = set()
+    filtered_out = 0
     
     for bill in bills:
-        # Create unique identifier
+        # Remove duplicates
         bill_key = f"{bill.get('jurisdiction', {}).get('name', '')}_{bill.get('identifier', '')}"
         if bill_key in seen_bills:
             continue
         seen_bills.add(bill_key)
         
-        # Enhanced AI filtering
+        # Check if actually AI-related
         title = bill.get('title', '')
         abstract = ""
         if bill.get('abstracts'):
             abstract = bill['abstracts'][0].get('abstract', '') if bill['abstracts'] else ''
         
         if not is_ai_related(title, abstract):
-            filtered_count += 1
+            filtered_out += 1
             continue
         
-        # Get status information
+        # Process the bill
         actions = bill.get('actions', [])
-        status_category = get_bill_status_category(actions)
-        latest_action = actions[0].get('description', '') if actions else ''
-        
-        # Get session and year info
-        session = bill.get('session', '')
-        created_at = bill.get('created_at', '')
-        year = ''
-        if created_at:
-            try:
-                year = datetime.fromisoformat(created_at.replace('Z', '+00:00')).year
-            except:
-                pass
         
         processed_bill = {
             'State': bill.get('jurisdiction', {}).get('name', ''),
             'Bill_ID': bill.get('identifier', ''),
             'Title': title,
-            'Status_Category': status_category,
-            'Latest_Action': latest_action,
+            'Status': get_simple_status(actions),
             'Category': categorize_bill(title, abstract),
-            'Session': session,
-            'Year': year,
-            'Created': created_at,
+            'Session': bill.get('session', ''),
             'Updated': bill.get('updated_at', ''),
             'URL': bill.get('sources', [{}])[0].get('url', '') if bill.get('sources') else '',
-            'Abstract': abstract[:500] + '...' if len(abstract) > 500 else abstract,  # Truncate long abstracts
             'Last_Checked': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         }
         
         processed_data.append(processed_bill)
     
-    print(f"Filtered out {filtered_count} non-AI bills")
-    print(f"Processing {len(processed_data)} AI-related bills")
+    print(f"✓ Filtered out {filtered_out} non-AI bills")
+    print(f"✓ Processing {len(processed_data)} AI-related bills")
     
-    # Sort by Year (newest first), then State, then Bill_ID
-    processed_data.sort(key=lambda x: (-x['Year'] if x['Year'] else 0, x['State'], x['Bill_ID']))
+    if not processed_data:
+        print("No AI-related bills found after filtering")
+        return
+    
+    # Sort by State, then Bill_ID
+    processed_data.sort(key=lambda x: (x['State'], x['Bill_ID']))
     
     # Create data directory
     os.makedirs('data', exist_ok=True)
     
-    # Save comprehensive bill data
-    fieldnames = ['State', 'Bill_ID', 'Title', 'Status_Category', 'Latest_Action', 'Category', 
-                  'Session', 'Year', 'Created', 'Updated', 'URL', 'Abstract', 'Last_Checked']
+    # Save main data file
+    fieldnames = ['State', 'Bill_ID', 'Title', 'Status', 'Category', 'Session', 'Updated', 'URL', 'Last_Checked']
     
-    with open('data/ai_legislation_comprehensive.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    with open('data/ai_legislation_bills.csv', 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(processed_data)
     
-    print(f"Comprehensive data saved to data/ai_legislation_comprehensive.csv")
+    print(f"✓ Saved {len(processed_data)} bills to data/ai_legislation_bills.csv")
     
-    # Create summary by state with status breakdown
-    state_data = {}
-    
+    # Create summary by state
+    state_summary = {}
     for bill in processed_data:
         state = bill['State']
-        if state not in state_data:
-            state_data[state] = {
+        if state not in state_summary:
+            state_summary[state] = {
                 'Total_Bills': 0,
                 'Enacted': 0,
                 'Active': 0,
-                'Failed': 0,
-                'Categories': set(),
-                'Years': set()
+                'Categories': set()
             }
         
-        state_data[state]['Total_Bills'] += 1
-        state_data[state]['Categories'].add(bill['Category'])
-        if bill['Year']:
-            state_data[state]['Years'].add(str(bill['Year']))
+        state_summary[state]['Total_Bills'] += 1
+        state_summary[state]['Categories'].add(bill['Category'])
         
-        # Count by status
-        status = bill['Status_Category']
-        if status == 'Enacted':
-            state_data[state]['Enacted'] += 1
-        elif status in ['Failed/Withdrawn', 'Vetoed']:
-            state_data[state]['Failed'] += 1
-        else:
-            state_data[state]['Active'] += 1
+        if bill['Status'] == 'Enacted':
+            state_summary[state]['Enacted'] += 1
+        elif bill['Status'] in ['Active', 'Passed']:
+            state_summary[state]['Active'] += 1
     
-    # Create state summary
+    # Create summary data
     summary_data = []
-    for state in sorted(state_data.keys()):
-        data = state_data[state]
+    for state in sorted(state_summary.keys()):
+        data = state_summary[state]
+        framework_status = 'Comprehensive' if data['Enacted'] >= 2 else 'Some Activity' if data['Total_Bills'] >= 2 else 'Minimal'
+        
         summary_data.append({
             'State': state,
             'Total_Bills': data['Total_Bills'],
             'Enacted': data['Enacted'],
             'Active_Pending': data['Active'],
-            'Failed_Vetoed': data['Failed'],
-            'Categories': '; '.join(sorted(data['Categories'])),
-            'Years_Active': '; '.join(sorted(data['Years'])),
-            'Framework_Status': 'Comprehensive' if data['Enacted'] >= 3 else 'Some Activity' if data['Total_Bills'] >= 2 else 'Minimal'
+            'Categories': '; '.join(sorted([cat for cat in data['Categories'] if cat])),
+            'Framework_Status': framework_status
         })
     
-    # Sort by total bills (most active first)
+    # Sort by most active
     summary_data.sort(key=lambda x: x['Total_Bills'], reverse=True)
     
     with open('data/ai_legislation_summary.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        summary_fieldnames = ['State', 'Total_Bills', 'Enacted', 'Active_Pending', 'Failed_Vetoed', 
-                              'Categories', 'Years_Active', 'Framework_Status']
+        summary_fieldnames = ['State', 'Total_Bills', 'Enacted', 'Active_Pending', 'Categories', 'Framework_Status']
         writer = csv.DictWriter(csvfile, fieldnames=summary_fieldnames)
         writer.writeheader()
         writer.writerows(summary_data)
     
-    print(f"State summary saved to data/ai_legislation_summary.csv")
-    
-    # Create year-over-year trend data
-    year_data = {}
-    for bill in processed_data:
-        year = bill['Year']
-        if year and year >= 2019:  # Focus on recent AI legislation era
-            if year not in year_data:
-                year_data[year] = {'Total': 0, 'Enacted': 0}
-            year_data[year]['Total'] += 1
-            if bill['Status_Category'] == 'Enacted':
-                year_data[year]['Enacted'] += 1
-    
-    trend_data = []
-    for year in sorted(year_data.keys()):
-        trend_data.append({
-            'Year': year,
-            'Bills_Introduced': year_data[year]['Total'],
-            'Bills_Enacted': year_data[year]['Enacted'],
-            'Enactment_Rate': f"{(year_data[year]['Enacted'] / year_data[year]['Total'] * 100):.1f}%" if year_data[year]['Total'] > 0 else "0%"
-        })
-    
-    with open('data/ai_legislation_trends.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=['Year', 'Bills_Introduced', 'Bills_Enacted', 'Enactment_Rate'])
-        writer.writeheader()
-        writer.writerows(trend_data)
-    
-    print(f"Trend analysis saved to data/ai_legislation_trends.csv")
-    print(f"Total files created: 3 CSV files with comprehensive AI legislation data")
+    print(f"✓ Saved state summary to data/ai_legislation_summary.csv")
+    print(f"\n=== SUCCESS ===")
+    print(f"Created 2 data files with {len(processed_data)} AI bills from {len(state_summary)} states")
 
 if __name__ == "__main__":
     process_legislation_data()
