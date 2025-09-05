@@ -1,1 +1,1 @@
-# ai-legislation-tracker
+# state-ai-legislation-tracker
