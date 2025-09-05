@@ -2,13 +2,14 @@ name: Update AI Legislation Data
 
 on:
   schedule:
-    # Run every Monday at 9 AM UTC (adjust timezone as needed)
-  - cron: '0 9 * * 1'
+    # Run twice per week: Monday and Thursday at 9 AM UTC
+    - cron: '0 9 * * 1,4'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # Increased timeout for comprehensive search
     
     steps:
     - name: Checkout repository
@@ -24,7 +25,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Fetch and process legislation data
+    - name: Fetch and process comprehensive legislation data
       env:
         OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
       run: |
@@ -36,7 +37,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add data/ || true
         if [ -n "$(git status --porcelain)" ]; then
-          git commit -m "Auto-update: AI legislation data $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "Auto-update: Comprehensive AI legislation data $(date '+%Y-%m-%d %H:%M:%S')"
           git push
         else
           echo "No changes to commit"
