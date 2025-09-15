@@ -1,57 +1,55 @@
 State,Bill_ID,Title,Status,Category,Year,Session,Updated,URL,Last_Checked
-Alaska,HCR 3,Establishing the Joint Legislative Task Force on Artificial Intelligence.,Introduced,General AI,2025,34,2025-08-05T18:22:51.029160+00:00,,2025-09-11 09:25:00
-California,AB 1018,Automated decision systems.,Introduced,General AI,2025,20252026,2025-09-10T08:52:58.223812+00:00,,2025-09-11 09:25:00
-California,AB 1064,Leading Ethical AI Development (LEAD) for Kids Act.,Introduced,General AI,2025,20252026,2025-09-11T08:30:39.192623+00:00,,2025-09-11 09:25:00
-California,AB 489,Health care professions: deceptive terms or letters: artificial intelligence.,Introduced,Healthcare,2025,20252026,2025-09-11T08:41:49.017141+00:00,,2025-09-11 09:25:00
-California,AB 621,Deepfake pornography.,Introduced,Elections,2025,20252026,2025-09-11T08:43:23.950966+00:00,,2025-09-11 09:25:00
-California,AB 853,California AI Transparency Act.,Introduced,Transparency,2025,20252026,2025-09-09T12:28:42.411288+00:00,,2025-09-11 09:25:00
-California,AB 979,California Cybersecurity Integration Center: artificial intelligence.,Introduced,Safety/Liability,2025,20252026,2025-09-10T08:45:19.328083+00:00,,2025-09-11 09:25:00
-California,SB 243,Companion chatbots.,Introduced,Chatbots,2025,20252026,2025-09-11T08:46:26.665840+00:00,,2025-09-11 09:25:00
-California,SB 295,California Preventing Algorithmic Collusion Act of 2025.,Introduced,General AI,2025,20252026,2025-09-10T08:41:22.759717+00:00,,2025-09-11 09:25:00
-California,SB 420,Automated decision systems.,Introduced,General AI,2025,20252026,2025-07-08T08:39:20.261097+00:00,,2025-09-11 09:25:00
-California,SB 503,Health care services: artificial intelligence.,Introduced,Healthcare,2025,20252026,2025-09-11T08:37:18.759517+00:00,,2025-09-11 09:25:00
-California,SB 524,Law enforcement agencies: artificial intelligence.,Introduced,Criminal Justice,2025,20252026,2025-09-11T08:47:29.328340+00:00,,2025-09-11 09:25:00
-California,SB 53,Artificial intelligence models: large developers.,Introduced,General AI,2025,20252026,2025-09-11T08:35:33.119825+00:00,,2025-09-11 09:25:00
-California,SB 579,Mental health and artificial intelligence working group.,Introduced,Healthcare,2025,20252026,2025-05-24T08:20:10.373461+00:00,,2025-09-11 09:25:00
-Colorado,HB 25B-1008,Consumer Protections for Artificial Intelligence Interactions,Introduced,General AI,2025,2025B,2025-09-10T20:50:11.029806+00:00,,2025-09-11 09:25:00
-Colorado,HB 25B-1009,Artificial Intelligence Systems,Introduced,General AI,2025,2025B,2025-09-10T00:49:48.071907+00:00,,2025-09-11 09:25:00
-Colorado,SB 25B-004,Increase Transparency for Algorithmic Systems,Introduced,Transparency,2025,2025B,2025-09-10T16:50:59.193273+00:00,,2025-09-11 09:25:00
-Georgia,SR 431,Senate Impact of Social Media and Artificial Intelligence on Children and Platform Privacy Protection Study Committee; create,Introduced,Privacy; Education/Child Protection,2025,2025_26,2025-04-04T05:29:59.079784+00:00,,2025-09-11 09:25:00
-Illinois,HB 3021,CONSUMER FRAUD-AI DECEPTION,Introduced,General AI,2025,104th,2025-07-26T07:50:20.745419+00:00,,2025-09-11 09:25:00
-Illinois,HB 3529,AI PRINCIPLES,Introduced,General AI,2025,104th,2025-07-26T08:36:53.592729+00:00,,2025-09-11 09:25:00
-Massachusetts,H 1210,An Act relative to AI health communications and informed patient consent,Introduced,Healthcare,2025,194th,2025-07-03T18:09:00.836684+00:00,,2025-09-11 09:25:00
-Massachusetts,H 77,An Act fostering artificial intelligence responsibility,Introduced,General AI,2025,194th,2025-09-03T19:33:47.290164+00:00,,2025-09-11 09:25:00
-Massachusetts,H 846,An Act enhancing disclosure requirements for synthetic media in political advertising,Introduced,Elections; Transparency,2025,194th,2025-09-03T18:41:56.738243+00:00,,2025-09-11 09:25:00
-Massachusetts,H 90,An Act regulating provenance regarding artificial intelligence,Introduced,General AI,2025,194th,2025-08-29T12:37:40.860149+00:00,,2025-09-11 09:25:00
-Massachusetts,H 94,An Act to ensure accountability and transparency in artificial intelligence systems,Introduced,Transparency,2025,194th,2025-08-29T12:14:03.908855+00:00,,2025-09-11 09:25:00
-Massachusetts,H 97,An Act protecting consumers in interactions with artificial intelligence systems,Introduced,General AI,2025,194th,2025-08-29T12:10:52.928821+00:00,,2025-09-11 09:25:00
-Massachusetts,S 243,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-03-11T01:06:43.861272+00:00,,2025-09-11 09:25:00
-Massachusetts,S 35,An Act fostering artificial intelligence responsibility,Introduced,General AI,2025,194th,2025-08-29T12:07:35.865203+00:00,,2025-09-11 09:25:00
-Massachusetts,SD 2223,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-03-10T20:32:36.343580+00:00,,2025-09-11 09:25:00
-Massachusetts,SD 3007,An Act to ensure non-discrimination by improving algorithmic system,Introduced,Bias/Discrimination,2025,194th,2025-09-04T21:02:34.108412+00:00,,2025-09-11 09:25:00
-Michigan,HB 4667,Crimes: other; use of artificial intelligence to commit certain crimes; prohibit. Amends 1931 PA 328 (MCL 750.1 - 750.568) by adding sec. 411y.,Introduced,General AI,2025,2025-2026,2025-06-25T15:14:04.223909+00:00,,2025-09-11 09:25:00
-Michigan,HB 4668,Trade: business regulation; requirements and safety standards for developers of certain artificial intelligence models; provide for. Creates new act.,Introduced,Safety/Liability,2025,2025-2026,2025-09-10T21:23:45.634872+00:00,,2025-09-11 09:25:00
-Montana,SB 212,Creating the Right to Compute Act and requiring shutdowns of AI controlled critical infrastructure,Introduced,General AI,2025,2025,2025-08-06T12:12:22.415530+00:00,,2025-09-11 09:25:00
-Montana,SB 413,Criminalize disclosure of certain explicit AI-generated media,Introduced,Transparency; Criminal Justice,2025,2025,2025-07-17T12:15:20.764883+00:00,,2025-09-11 09:25:00
-New Hampshire,HB 558,creating a public county registry of the monthly rent charged by landlords for each owned unit and prohibiting landlords from using algorithms or software to determine rental rates.,Introduced,Government Use,2025,2025,2025-09-10T03:06:00.750457+00:00,,2025-09-11 09:25:00
-New Hampshire,HB 630,preventing the dissemination of deepfake materials of political candidates before an election.,Introduced,Elections,2025,2025,2025-09-10T03:16:49.248640+00:00,,2025-09-11 09:25:00
-New Mexico,HB 530,SENSITIVE DEEPFAKE IMAGES,Introduced,Elections,2025,2025,2025-06-27T05:29:20.965177+00:00,,2025-09-11 09:25:00
-New York,A 222,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-05-31T00:53:47.533591+00:00,,2025-09-11 09:25:00
-New York,A 4550,Requires the department of labor to study the long-term impact of artificial intelligence on the state workforce,Introduced,Employment,2025,2025-2026,2025-09-11T01:58:13.844072+00:00,,2025-09-11 09:25:00
-New York,A 6545,Imposes liability for damages caused by a chatbot impersonating certain licensed professionals,Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-04-25T22:21:05.625025+00:00,,2025-09-11 09:25:00
-New York,A 8595,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-06-10T17:35:57.358485+00:00,,2025-09-11 09:25:00
-New York,A 8884,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-07-09T05:45:59.279645+00:00,,2025-09-11 09:25:00
-New York,A 9028,Relates to use of virtual agents and AI tools in property searches,Introduced,General AI,2025,2025-2026,2025-09-05T22:13:21.162485+00:00,,2025-09-11 09:25:00
-New York,S 1169,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-07-12T08:45:52.779947+00:00,,2025-09-11 09:25:00
-New York,S 5668,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-06-13T19:06:03.710612+00:00,,2025-09-11 09:25:00
-New York,S 7263,Imposes liability for damages caused by a chatbot impersonating certain licensed professionals,Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-06-13T11:15:08.534980+00:00,,2025-09-11 09:25:00
-New York,S 7599,Relates to automated decision-making by government agencies,Introduced,Government Use,2025,2025-2026,2025-07-11T23:48:03.038640+00:00,,2025-09-11 09:25:00
-New York,S 8331,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-06-10T10:02:18.458009+00:00,,2025-09-11 09:25:00
-North Carolina,HB 375,Artificial Intelligence/Ban Deceptive Ads.,Introduced,General AI,2025,2025,2025-06-30T14:47:55.153602+00:00,,2025-09-11 09:25:00
-Pennsylvania,HB 1857,An Act requiring business entities to disclose the use of artificial intelligence in certain consumer interactions; establishing the right of consumers to human review in high-impact decisions; and providing for enforcement by Attorney General.,Introduced,General AI,2025,2025-2026,2025-09-11T00:38:46.551254+00:00,,2025-09-11 09:25:00
-Washington,HB 1833,Creating an artificial intelligence grant program.,Introduced,General AI,2025,2025-2026,2025-09-04T03:13:59.769423+00:00,,2025-09-11 09:25:00
-Washington,HB 1942,Promoting the economic development of innovative uses of artificial intelligence.,Introduced,General AI,2025,2025-2026,2025-09-04T03:16:56.867427+00:00,,2025-09-11 09:25:00
-California,SB 7,Employment: automated decision systems.,Introduced,Employment,2024,20252026,2025-09-06T08:33:22.135367+00:00,,2025-09-11 09:25:00
-Montana,SB 25,Revise election laws regarding disclosure requirements for the use of AI in elections,Introduced,Elections; Transparency,2024,2025,2025-08-09T11:41:23.627984+00:00,,2025-09-11 09:25:00
-Pennsylvania,HR 170,A Resolution directing the Joint State Government Commission to establish an advisory committee to conduct a study on the field of artificial intelligence and its impact and potential future impact in Pennsylvania.,Introduced,Government Use,2023,2023-2024,2024-12-03T10:12:38.034265+00:00,,2025-09-11 09:25:00
-Pennsylvania,SR 143,A Resolution directing the Joint State Government Commission to establish an advisory committee to conduct a study on the field of artificial intelligence and its impact and potential future impact in Pennsylvania.,Introduced,Government Use,2023,2023-2024,2024-11-13T20:54:14.143597+00:00,,2025-09-11 09:25:00
+Alaska,HCR 3,Establishing the Joint Legislative Task Force on Artificial Intelligence.,Introduced,General AI,2025,34,2025-08-05T18:22:51.029160+00:00,,2025-09-15 09:28:09
+California,AB 1018,Automated decision systems.,Introduced,General AI,2025,20252026,2025-09-13T12:33:59.964317+00:00,,2025-09-15 09:28:09
+California,AB 1064,Leading Ethical AI Development (LEAD) for Kids Act.,Introduced,General AI,2025,20252026,2025-09-13T08:24:20.470536+00:00,,2025-09-15 09:28:09
+California,AB 489,Health care professions: deceptive terms or letters: artificial intelligence.,Introduced,Healthcare,2025,20252026,2025-09-11T08:41:49.017141+00:00,,2025-09-15 09:28:09
+California,AB 621,Deepfake pornography.,Introduced,Elections,2025,20252026,2025-09-13T08:29:12.632757+00:00,,2025-09-15 09:28:09
+California,AB 853,California AI Transparency Act.,Introduced,Transparency,2025,20252026,2025-09-13T08:42:43.099065+00:00,,2025-09-15 09:28:09
+California,AB 979,California Cybersecurity Integration Center: artificial intelligence.,Introduced,Safety/Liability,2025,20252026,2025-09-13T08:30:26.795279+00:00,,2025-09-15 09:28:09
+California,SB 243,Companion chatbots.,Introduced,Chatbots,2025,20252026,2025-09-12T08:37:27.921117+00:00,,2025-09-15 09:28:09
+California,SB 295,California Preventing Algorithmic Collusion Act of 2025.,Introduced,General AI,2025,20252026,2025-09-13T12:32:52.300612+00:00,,2025-09-15 09:28:09
+California,SB 420,Automated decision systems.,Introduced,General AI,2025,20252026,2025-07-08T08:39:20.261097+00:00,,2025-09-15 09:28:09
+California,SB 53,Artificial intelligence models: large developers.,Introduced,General AI,2025,20252026,2025-09-13T12:35:52.376304+00:00,,2025-09-15 09:28:09
+California,SB 579,Mental health and artificial intelligence working group.,Introduced,Healthcare,2025,20252026,2025-05-24T08:20:10.373461+00:00,,2025-09-15 09:28:09
+Colorado,HB 25B-1008,Consumer Protections for Artificial Intelligence Interactions,Introduced,General AI,2025,2025B,2025-09-10T20:50:11.029806+00:00,,2025-09-15 09:28:09
+Colorado,HB 25B-1009,Artificial Intelligence Systems,Introduced,General AI,2025,2025B,2025-09-10T00:49:48.071907+00:00,,2025-09-15 09:28:09
+Colorado,SB 25B-004,Increase Transparency for Algorithmic Systems,Introduced,Transparency,2025,2025B,2025-09-10T16:50:59.193273+00:00,,2025-09-15 09:28:09
+Georgia,SR 431,Senate Impact of Social Media and Artificial Intelligence on Children and Platform Privacy Protection Study Committee; create,Introduced,Privacy; Education/Child Protection,2025,2025_26,2025-04-04T05:29:59.079784+00:00,,2025-09-15 09:28:09
+Illinois,HB 3021,CONSUMER FRAUD-AI DECEPTION,Introduced,General AI,2025,104th,2025-07-26T07:50:20.745419+00:00,,2025-09-15 09:28:09
+Illinois,HB 3529,AI PRINCIPLES,Introduced,General AI,2025,104th,2025-07-26T08:36:53.592729+00:00,,2025-09-15 09:28:09
+Massachusetts,H 1210,An Act relative to AI health communications and informed patient consent,Introduced,Healthcare,2025,194th,2025-07-03T18:09:00.836684+00:00,,2025-09-15 09:28:09
+Massachusetts,H 77,An Act fostering artificial intelligence responsibility,Introduced,General AI,2025,194th,2025-09-03T19:33:47.290164+00:00,,2025-09-15 09:28:09
+Massachusetts,H 846,An Act enhancing disclosure requirements for synthetic media in political advertising,Introduced,Elections; Transparency,2025,194th,2025-09-03T18:41:56.738243+00:00,,2025-09-15 09:28:09
+Massachusetts,H 94,An Act to ensure accountability and transparency in artificial intelligence systems,Introduced,Transparency,2025,194th,2025-08-29T12:14:03.908855+00:00,,2025-09-15 09:28:09
+Massachusetts,H 97,An Act protecting consumers in interactions with artificial intelligence systems,Introduced,General AI,2025,194th,2025-08-29T12:10:52.928821+00:00,,2025-09-15 09:28:09
+Massachusetts,S 243,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-03-11T01:06:43.861272+00:00,,2025-09-15 09:28:09
+Massachusetts,S 35,An Act fostering artificial intelligence responsibility,Introduced,General AI,2025,194th,2025-08-29T12:07:35.865203+00:00,,2025-09-15 09:28:09
+Massachusetts,SD 2223,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-03-10T20:32:36.343580+00:00,,2025-09-15 09:28:09
+Massachusetts,SD 3007,An Act to ensure non-discrimination by improving algorithmic system,Introduced,Bias/Discrimination,2025,194th,2025-09-04T21:02:34.108412+00:00,,2025-09-15 09:28:09
+Michigan,HB 4667,Crimes: other; use of artificial intelligence to commit certain crimes; prohibit. Amends 1931 PA 328 (MCL 750.1 - 750.568) by adding sec. 411y.,Introduced,General AI,2025,2025-2026,2025-06-25T15:14:04.223909+00:00,,2025-09-15 09:28:09
+Montana,SB 212,Creating the Right to Compute Act and requiring shutdowns of AI controlled critical infrastructure,Introduced,General AI,2025,2025,2025-08-06T12:12:22.415530+00:00,,2025-09-15 09:28:09
+Montana,SB 413,Criminalize disclosure of certain explicit AI-generated media,Introduced,Transparency; Criminal Justice,2025,2025,2025-07-17T12:15:20.764883+00:00,,2025-09-15 09:28:09
+Nevada,AB 325,Revises provisions relating to artificial intelligence. (BDR 36-393),Introduced,General AI,2025,83,2025-09-13T08:10:59.819384+00:00,,2025-09-15 09:28:09
+New Hampshire,HB 558,creating a public county registry of the monthly rent charged by landlords for each owned unit and prohibiting landlords from using algorithms or software to determine rental rates.,Introduced,Government Use,2025,2025,2025-09-10T03:06:00.750457+00:00,,2025-09-15 09:28:09
+New Hampshire,HB 630,preventing the dissemination of deepfake materials of political candidates before an election.,Introduced,Elections,2025,2025,2025-09-10T03:16:49.248640+00:00,,2025-09-15 09:28:09
+New Mexico,HB 530,SENSITIVE DEEPFAKE IMAGES,Introduced,Elections,2025,2025,2025-06-27T05:29:20.965177+00:00,,2025-09-15 09:28:09
+New York,A 222,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-05-31T00:53:47.533591+00:00,,2025-09-15 09:28:09
+New York,A 6545,Imposes liability for damages caused by a chatbot impersonating certain licensed professionals,Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-04-25T22:21:05.625025+00:00,,2025-09-15 09:28:09
+New York,A 8595,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-06-10T17:35:57.358485+00:00,,2025-09-15 09:28:09
+New York,A 8884,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-07-09T05:45:59.279645+00:00,,2025-09-15 09:28:09
+New York,A 9028,Relates to use of virtual agents and AI tools in property searches,Introduced,General AI,2025,2025-2026,2025-09-05T22:13:21.162485+00:00,,2025-09-15 09:28:09
+New York,A 9091,Requires search engines inform users when showing information which was generated using artificial intelligence,Introduced,General AI,2025,2025-2026,2025-09-13T03:36:00.037552+00:00,,2025-09-15 09:28:09
+New York,A 9097,"Requires disclosure of use of generative artificial intelligence to clients, criminal defendants, and the court",Introduced,Transparency; Criminal Justice,2025,2025-2026,2025-09-13T03:15:53.894307+00:00,,2025-09-15 09:28:09
+New York,S 1169,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-07-12T08:45:52.779947+00:00,,2025-09-15 09:28:09
+New York,S 5668,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-06-13T19:06:03.710612+00:00,,2025-09-15 09:28:09
+New York,S 7263,Imposes liability for damages caused by a chatbot impersonating certain licensed professionals,Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-06-13T11:15:08.534980+00:00,,2025-09-15 09:28:09
+New York,S 7599,Relates to automated decision-making by government agencies,Introduced,Government Use,2025,2025-2026,2025-07-11T23:48:03.038640+00:00,,2025-09-15 09:28:09
+New York,S 8331,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-06-10T10:02:18.458009+00:00,,2025-09-15 09:28:09
+North Carolina,HB 375,Artificial Intelligence/Ban Deceptive Ads.,Introduced,General AI,2025,2025,2025-06-30T14:47:55.153602+00:00,,2025-09-15 09:28:09
+Washington,HB 1833,Creating an artificial intelligence grant program.,Introduced,General AI,2025,2025-2026,2025-09-04T03:13:59.769423+00:00,,2025-09-15 09:28:09
+Washington,HB 1942,Promoting the economic development of innovative uses of artificial intelligence.,Introduced,General AI,2025,2025-2026,2025-09-04T03:16:56.867427+00:00,,2025-09-15 09:28:09
+California,SB 11,Artificial intelligence technology.,Introduced,General AI,2024,20252026,2025-09-13T12:23:54.512656+00:00,,2025-09-15 09:28:09
+California,SB 7,Employment: automated decision systems.,Introduced,Employment,2024,20252026,2025-09-13T08:36:06.542128+00:00,,2025-09-15 09:28:09
+Montana,SB 25,Revise election laws regarding disclosure requirements for the use of AI in elections,Introduced,Elections; Transparency,2024,2025,2025-08-09T11:41:23.627984+00:00,,2025-09-15 09:28:09
+Pennsylvania,HR 170,A Resolution directing the Joint State Government Commission to establish an advisory committee to conduct a study on the field of artificial intelligence and its impact and potential future impact in Pennsylvania.,Introduced,Government Use,2023,2023-2024,2024-12-03T10:12:38.034265+00:00,,2025-09-15 09:28:09
+Pennsylvania,SR 143,A Resolution directing the Joint State Government Commission to establish an advisory committee to conduct a study on the field of artificial intelligence and its impact and potential future impact in Pennsylvania.,Introduced,Government Use,2023,2023-2024,2024-11-13T20:54:14.143597+00:00,,2025-09-15 09:28:09
