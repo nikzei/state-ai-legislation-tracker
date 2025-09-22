@@ -1,13 +1,12 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-California,14,0,0,Chatbots; Criminal Justice; Elections,2024; 2025,Some Activity
+California,15,0,0,Chatbots; Elections; Employment,2024; 2025,Some Activity
+Massachusetts,10,0,0,Chatbots; Elections; Transparency; Healthcare,2025,Some Activity
 New York,10,0,0,Chatbots; Safety/Liability; Government Use; Transparency,2025,Some Activity
-Massachusetts,9,0,0,Chatbots; Elections; Transparency; Healthcare,2025,Some Activity
 Montana,3,0,0,Elections; Transparency; Transparency; Criminal Justice,2024; 2025,Some Activity
 Illinois,2,0,0,,2025,Minimal
 Pennsylvania,2,0,0,Government Use,2023,Minimal
 Washington,2,0,0,,2025,Minimal
 Alaska,1,0,0,,2025,Minimal
-Georgia,1,0,0,Privacy; Education/Child Protection,2025,Minimal
 Michigan,1,0,0,,2025,Minimal
 New Hampshire,1,0,0,Elections,2025,Minimal
 New Mexico,1,0,0,Elections,2025,Minimal
