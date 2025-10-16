@@ -1,12 +1,13 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-Illinois,13,0,0,Government Use; Healthcare; Healthcare; Financial Services,2025,Some Activity
-New York,10,0,0,Chatbots; Safety/Liability; Government Use; Transparency,2025,Some Activity
-California,7,0,0,Chatbots; Elections; Healthcare,2025,Some Activity
-Massachusetts,7,0,0,Chatbots; Transparency,2025,Some Activity
+Illinois,11,0,0,Healthcare; Healthcare; Financial Services; Transparency,2025,Some Activity
+New York,11,0,0,Chatbots; Safety/Liability; Government Use; Transparency,2025,Some Activity
+California,9,0,0,Chatbots; Elections; Employment,2024; 2025,Some Activity
+Massachusetts,8,0,0,Chatbots; Transparency,2025,Some Activity
 Alaska,4,0,0,Elections; Elections; Government Use; Elections; Transparency,2025,Some Activity
 Montana,3,0,0,Elections; Transparency; Transparency; Criminal Justice,2024; 2025,Some Activity
+Pennsylvania,3,0,0,Government Use; Healthcare; Financial Services; Safety/Liability,2023; 2025,Some Activity
 Minnesota,2,0,0,Chatbots; Education/Child Protection,2025,Minimal
-Pennsylvania,2,0,0,Government Use,2023,Minimal
+Ohio,2,0,0,Safety/Liability,2025,Minimal
 Virginia,2,0,0,,2024,Minimal
 Washington,2,0,0,,2025,Minimal
 Michigan,1,0,0,,2025,Minimal
@@ -15,3 +16,4 @@ New Mexico,1,0,0,Elections,2025,Minimal
 North Carolina,1,0,0,,2025,Minimal
 North Dakota,1,0,0,Elections,2025,Minimal
 Oregon,1,0,0,,2025,Minimal
+United States,1,0,0,,2025,Minimal
