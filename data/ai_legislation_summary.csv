@@ -1,14 +1,15 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-Maryland,21,0,0,Criminal Justice; Safety/Liability; Education/Child Protection; Education/Child Protection; Criminal Justice,2024; 2025,Some Activity
-New York,19,0,0,Chatbots; Safety/Liability; Criminal Justice; Elections,2025,Some Activity
-California,6,0,0,Chatbots; Elections; Employment,2024; 2025,Some Activity
-Massachusetts,6,0,0,Chatbots; Education/Child Protection,2025,Some Activity
-Missouri,6,0,0,Chatbots; Education/Child Protection; Safety/Liability,2025,Some Activity
-Minnesota,3,0,0,Chatbots; Education/Child Protection; Healthcare; Financial Services,2025,Some Activity
+New York,18,0,0,Chatbots; Safety/Liability; Criminal Justice; Elections,2025,Some Activity
+Missouri,7,0,0,Chatbots; Education/Child Protection; Safety/Liability,2025,Some Activity
+Oklahoma,6,0,0,Healthcare; Transparency,2025,Some Activity
+California,5,0,0,Chatbots; Elections; Transparency,2025,Some Activity
+Massachusetts,5,0,0,Chatbots; Education/Child Protection,2025,Some Activity
+Maryland,4,0,0,Elections; Elections; Criminal Justice; Elections; Transparency,2025,Some Activity
 Alaska,2,0,0,Elections; Government Use; Elections; Transparency,2025,Minimal
-New Hampshire,2,0,0,Elections; Government Use,2025,Minimal
+Minnesota,2,0,0,Chatbots; Education/Child Protection,2025,Minimal
+Florida,1,0,0,,2025,Minimal
 Illinois,1,0,0,,2025,Minimal
 Montana,1,0,0,Transparency; Criminal Justice,2025,Minimal
-North Dakota,1,0,0,Elections,2025,Minimal
+New Hampshire,1,0,0,Elections,2025,Minimal
 Ohio,1,0,0,Elections,2025,Minimal
 Pennsylvania,1,0,0,Government Use,2023,Minimal
