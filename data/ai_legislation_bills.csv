@@ -1,61 +1,58 @@
 State,Bill_ID,Title,Status,Category,Year,Session,Updated,URL,Last_Checked
-California,AB 1064,Leading Ethical AI Development (LEAD) for Kids Act.,Introduced,General AI,2025,20252026,2025-11-19T08:44:54.892661+00:00,,2025-12-22 09:36:26
-California,AB 621,Deepfake pornography.,Introduced,Elections,2025,20252026,2025-11-19T08:27:30.572057+00:00,,2025-12-22 09:36:26
-California,SB 243,Companion chatbots.,Introduced,Chatbots,2025,20252026,2025-11-18T08:27:37.686094+00:00,,2025-12-22 09:36:26
-Florida,HB 659,Interactions with Artificial Intelligence,Introduced,General AI,2025,2026,2025-12-20T10:24:29.713436+00:00,,2025-12-22 09:36:26
-Illinois,HB 4248,ALGORITHMIC PRICE TRANSPARENCY,Introduced,Transparency,2025,104th,2025-12-18T09:53:50.922281+00:00,,2025-12-22 09:36:26
-Iowa,5522DP,"Campaign Material, Synthetic Media Disclosure (5522DP) - Ethics and Campaign Disclosure Board",Introduced,Elections; Transparency,2025,2025-2026,2025-12-12T05:33:18.707153+00:00,,2025-12-22 09:36:26
-Maryland,HB 1425,Criminal Law - Identity Fraud - Artificial Intelligence and Deepfake Representations,Introduced,Elections; Criminal Justice,2025,2025,2025-12-04T06:50:44.486947+00:00,,2025-12-22 09:36:26
-Maryland,HB 663,Civil Actions - Sexual Deepfake Representations and Revenge Porn,Introduced,Elections,2025,2025,2025-12-04T06:45:10.590802+00:00,,2025-12-22 09:36:26
-Maryland,HB 740,Election Law - Campaign Materials - Disclosure of Use of Synthetic Media,Introduced,Elections; Transparency,2025,2025,2025-12-04T06:57:11.616466+00:00,,2025-12-22 09:36:26
-Maryland,SB 905,Criminal Law – Identity Fraud – Artificial Intelligence and Deepfake Representations,Introduced,Elections; Criminal Justice,2025,2025,2025-12-04T06:50:46.088311+00:00,,2025-12-22 09:36:26
-Massachusetts,H 77,An Act fostering artificial intelligence responsibility,Introduced,General AI,2025,194th,2025-11-19T04:36:29.673886+00:00,,2025-12-22 09:36:26
-Massachusetts,S 243,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-11-19T20:50:26.124445+00:00,,2025-12-22 09:36:26
-Massachusetts,S 264,An Act establishing protections for consumers interacting with artificial intelligence chatbots,Introduced,Chatbots,2025,194th,2025-12-18T18:52:19.612475+00:00,,2025-12-22 09:36:26
-Massachusetts,S 429,An Act to establish a commission to investigate AI in education,Introduced,Education/Child Protection,2025,194th,2025-12-04T19:58:37.410787+00:00,,2025-12-22 09:36:26
-Massachusetts,SD 2223,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-03-10T20:32:36.343580+00:00,,2025-12-22 09:36:26
-Michigan,SB 760,Trade: business regulation; availability of companion chatbots to minors; prohibit. Creates new act.,Introduced,Chatbots; Education/Child Protection,2025,2025-2026,2025-12-17T21:03:01.977239+00:00,,2025-12-22 09:36:26
-Minnesota,HF 1991,"Persons prohibited from allowing minors to access chatbots for recreational purposes, and civil penalties provided.",Introduced,Chatbots; Education/Child Protection,2025,2025-2026,2025-11-21T15:49:41.799598+00:00,,2025-12-22 09:36:26
-Minnesota,SF 1857,Minor access to chatbots for recreational purposes by persons prohibition provision,Introduced,Chatbots; Education/Child Protection,2025,2025-2026,2025-11-21T15:36:21.385317+00:00,,2025-12-22 09:36:26
-Missouri,HB 1742,Establishes provisions relating to companion chatbots,Introduced,Chatbots,2025,2026,2025-12-11T00:53:47.588550+00:00,,2025-12-22 09:36:26
-Missouri,HB 1769,"Establishes the ""AI Non-Sentience and Responsibility Act""",Introduced,General AI,2025,2026,2025-12-15T18:50:02.603049+00:00,,2025-12-22 09:36:26
-Missouri,HB 2032,Establishes age verification measures for artificial intelligence chatbots,Introduced,Chatbots,2025,2026,2025-12-01T21:11:10.836998+00:00,,2025-12-22 09:36:26
-Missouri,HB 2368,Creates provisions relating to artificial intelligence in mental health,Introduced,Healthcare,2025,2026,2025-12-11T18:52:36.087704+00:00,,2025-12-22 09:36:26
-Missouri,SB 1183,Creates provisions relating to synthetic media,Introduced,General AI,2025,2026,2025-12-02T22:17:25.761288+00:00,,2025-12-22 09:36:26
-Missouri,SB 1455,Creates provisions relating to artificial intelligence chatbots,Introduced,Chatbots,2025,2026,2025-12-20T01:02:38.532593+00:00,,2025-12-22 09:36:26
-Montana,SB 413,Criminalize disclosure of certain explicit AI-generated media,Introduced,Transparency; Criminal Justice,2025,2025,2025-10-16T11:53:58.148172+00:00,,2025-12-22 09:36:26
-New Hampshire,HB 1280,establishing a commission to study public school open enrollment.,Introduced,Government Use; Education/Child Protection,2025,2026,2025-12-22T09:12:43.157834+00:00,,2025-12-22 09:36:26
-New Hampshire,HB 1406,prohibiting health carriers from using artificial intelligence to change the clinical judgment of a provider.,Introduced,Healthcare,2025,2026,2025-12-22T09:11:56.835365+00:00,,2025-12-22 09:36:26
-New Hampshire,HB 1506,creating an exception to the restricted uses of artificial intelligence by state agencies.,Introduced,General AI,2025,2026,2025-12-22T09:09:08.678144+00:00,,2025-12-22 09:36:26
-New Hampshire,HB 1612,"relative to the use of price-fixing websites, algorithms, or other software by landlords.",Introduced,General AI,2025,2026,2025-12-22T09:15:22.811179+00:00,,2025-12-22 09:36:26
-New Hampshire,HB 1725,relative to the regulation of artificial intelligence technologies.,Introduced,General AI,2025,2026,2025-12-22T09:13:10.483623+00:00,,2025-12-22 09:36:26
-New Hampshire,HB 630,preventing the dissemination of deepfake materials of political candidates before an election.,Introduced,Elections,2025,2025,2025-12-03T03:10:47.176432+00:00,,2025-12-22 09:36:26
-New Hampshire,SB 640,relative to the use of artificial intelligence to provide services requiring a professional license.,Introduced,General AI,2025,2026,2025-12-22T09:14:08.727951+00:00,,2025-12-22 09:36:26
-New York,A 1456,Relates to the use of artificial intelligence for utilization review,Introduced,General AI,2025,2025-2026,2025-11-15T05:54:25.255477+00:00,,2025-12-22 09:36:26
-New York,A 222,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-11-15T06:15:49.387788+00:00,,2025-12-22 09:36:26
-New York,A 6491,Prohibits the creation and dissemination of synthetic media within sixty days of an election with intent to unduly influence the outcome of an election,Introduced,Elections,2025,2025-2026,2025-11-15T05:21:22.660886+00:00,,2025-12-22 09:36:26
-New York,A 7172,Relation to the regulation of the use of artificial intelligence and facial recognition technology in criminal investigations,Introduced,Criminal Justice,2025,2025-2026,2025-11-15T06:09:07.646373+00:00,,2025-12-22 09:36:26
-New York,A 768,"Enacts the ""New York artificial intelligence consumer protection act""",Introduced,General AI,2025,2025-2026,2025-11-15T06:21:58.033544+00:00,,2025-12-22 09:36:26
-New York,A 8295,Relates to automated decision-making by government agencies,Introduced,Government Use,2025,2025-2026,2025-11-15T08:18:25.822303+00:00,,2025-12-22 09:36:26
-New York,A 8595,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-11-15T05:24:44.114873+00:00,,2025-12-22 09:36:26
-New York,A 8884,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-11-15T08:27:24.832179+00:00,,2025-12-22 09:36:26
-New York,A 8962,Enacts the New York fundamental artificial intelligence requirements in (FAIR) news act,Introduced,General AI,2025,2025-2026,2025-12-19T21:50:14.451325+00:00,,2025-12-22 09:36:26
-New York,A 9028,Relates to use of virtual agents and AI tools in property searches,Introduced,General AI,2025,2025-2026,2025-11-15T07:53:55.769643+00:00,,2025-12-22 09:36:26
-New York,A 9317,Regulates companion chatbots,Introduced,Chatbots,2025,2025-2026,2025-12-11T01:41:47.993485+00:00,,2025-12-22 09:36:26
-New York,S 1169,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-11-15T08:04:15.872406+00:00,,2025-12-22 09:36:26
-New York,S 1962,"Enacts the ""New York artificial intelligence consumer protection act""",Introduced,General AI,2025,2025-2026,2025-11-15T06:28:07.904316+00:00,,2025-12-22 09:36:26
-New York,S 5668,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-11-15T07:03:08.284877+00:00,,2025-12-22 09:36:26
-New York,S 6953,Relates to the training and use of artificial intelligence frontier models,Introduced,General AI,2025,2025-2026,2025-12-20T17:11:54.898620+00:00,,2025-12-22 09:36:26
-New York,S 7599,Relates to automated decision-making by government agencies,Introduced,Government Use,2025,2025-2026,2025-12-20T14:56:02.327059+00:00,,2025-12-22 09:36:26
-New York,S 8331,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-11-15T06:17:29.259267+00:00,,2025-12-22 09:36:26
-New York,S 8451,Enacts the New York fundamental artificial intelligence requirements in (FAIR) news act,Introduced,General AI,2025,2025-2026,2025-12-19T21:52:19.456168+00:00,,2025-12-22 09:36:26
-Ohio,HB 185,Regards an individual's persona usage; prohibit certain deepfakes,Introduced,Elections,2025,136,2025-11-13T07:29:45.084258+00:00,,2025-12-22 09:36:26
-Ohio,SCR 14,Urge Congress to reject moratorium on state regulation of AI,Introduced,General AI,2025,136,2025-12-17T19:48:19.009066+00:00,,2025-12-22 09:36:26
-Oklahoma,HB 1916,Artificial intelligence; Responsible Deployment of AI Systems Act; AI Council; AI Regulatory Sandbox Program; Artificial Intelligence Workforce Development Program; effective date.,Introduced,General AI,2025,2026,2025-12-05T03:28:32.334774+00:00,,2025-12-22 09:36:26
-Oklahoma,SB 746,Artificial intelligence; requiring certain disclosure for certain media. Effective date.,Introduced,Transparency,2025,2026,2025-12-05T03:45:38.988532+00:00,,2025-12-22 09:36:26
-Oklahoma,SB 894,Artificial intelligence; prohibiting distribution of certain media and requiring certain disclosures. Effective date.,Introduced,Transparency,2025,2026,2025-12-05T03:27:49.226210+00:00,,2025-12-22 09:36:26
-Pennsylvania,HB 2100,An Act providing for the use of mental health chatbots and artificial intelligence by mental health therapists; imposing duties on the Bureau of Professional and Occupational Affairs; and imposing a penalty.,Introduced,Healthcare; Chatbots,2025,2025-2026,2025-12-16T22:57:34.691227+00:00,,2025-12-22 09:36:26
-Tennessee,HB 1455,"Criminal Offenses - As introduced, creates a Class A felony offense of knowingly training artificial intelligence to encourage the act of suicide or criminal homicide, or act in specific manners, including developing an emotional relationship with an individual or simulating a human being, including in appearance, voice, or other mannerisms. - Amends TCA Title 29; Title 33; Title 39 and Title 47.",Introduced,Criminal Justice,2025,114,2025-12-12T07:17:08.315310+00:00,,2025-12-22 09:36:26
-Washington,HB 2157,"Regulating high-risk artificial intelligence system development, deployment, and use.",Introduced,Safety/Liability,2025,2025-2026,2025-12-20T01:01:19.339089+00:00,,2025-12-22 09:36:26
-Washington,SB 5870,Establishing civil liability for suicide linked to the use of artificial intelligence systems.,Introduced,Safety/Liability,2025,2025-2026,2025-12-12T03:16:20.715139+00:00,,2025-12-22 09:36:26
-New Jersey,A 4639,Requires boards of education to adopt policy on use of surveillance systems with artificial intelligence capabilities.,Introduced,Education/Child Protection; Criminal Justice,2024,221,2025-12-19T22:35:15.127791+00:00,,2025-12-22 09:36:26
+California,AB 1064,Leading Ethical AI Development (LEAD) for Kids Act.,Introduced,General AI,2025,20252026,2025-11-19T08:44:54.892661+00:00,,2025-12-25 09:30:07
+California,AB 621,Deepfake pornography.,Introduced,Elections,2025,20252026,2025-11-19T08:27:30.572057+00:00,,2025-12-25 09:30:07
+Florida,HB 659,Interactions with Artificial Intelligence,Introduced,General AI,2025,2026,2025-12-23T22:19:20.622446+00:00,,2025-12-25 09:30:07
+Florida,HB 899,Task Force on Artificial Intelligence in Public Postsecondary Education,Introduced,Government Use; Education/Child Protection,2025,2026,2025-12-23T18:38:00.953310+00:00,,2025-12-25 09:30:07
+Florida,SB 482,Artificial Intelligence Bill of Rights,Introduced,General AI,2025,2026,2025-12-22T18:18:10.072324+00:00,,2025-12-25 09:30:07
+Iowa,5522DP,"Campaign Material, Synthetic Media Disclosure (5522DP) - Ethics and Campaign Disclosure Board",Introduced,Elections; Transparency,2025,2025-2026,2025-12-12T05:33:18.707153+00:00,,2025-12-25 09:30:07
+Maryland,HB 1425,Criminal Law - Identity Fraud - Artificial Intelligence and Deepfake Representations,Introduced,Elections; Criminal Justice,2025,2025,2025-12-04T06:50:44.486947+00:00,,2025-12-25 09:30:07
+Maryland,HB 663,Civil Actions - Sexual Deepfake Representations and Revenge Porn,Introduced,Elections,2025,2025,2025-12-04T06:45:10.590802+00:00,,2025-12-25 09:30:07
+Maryland,SB 905,Criminal Law – Identity Fraud – Artificial Intelligence and Deepfake Representations,Introduced,Elections; Criminal Justice,2025,2025,2025-12-04T06:50:46.088311+00:00,,2025-12-25 09:30:07
+Massachusetts,H 77,An Act fostering artificial intelligence responsibility,Introduced,General AI,2025,194th,2025-12-24T17:20:30.352923+00:00,,2025-12-25 09:30:07
+Massachusetts,H 83,An Act establishing a special legislative commission to study load growth due to AI and data centers,Introduced,General AI,2025,194th,2025-12-24T19:25:32.640488+00:00,,2025-12-25 09:30:07
+Massachusetts,S 243,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-11-19T20:50:26.124445+00:00,,2025-12-25 09:30:07
+Massachusetts,S 264,An Act establishing protections for consumers interacting with artificial intelligence chatbots,Introduced,Chatbots,2025,194th,2025-12-18T18:52:19.612475+00:00,,2025-12-25 09:30:07
+Massachusetts,S 429,An Act to establish a commission to investigate AI in education,Introduced,Education/Child Protection,2025,194th,2025-12-04T19:58:37.410787+00:00,,2025-12-25 09:30:07
+Massachusetts,SD 2223,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2025-03-10T20:32:36.343580+00:00,,2025-12-25 09:30:07
+Michigan,SB 760,Trade: business regulation; availability of companion chatbots to minors; prohibit. Creates new act.,Introduced,Chatbots; Education/Child Protection,2025,2025-2026,2025-12-17T21:03:01.977239+00:00,,2025-12-25 09:30:07
+Minnesota,HF 1991,"Persons prohibited from allowing minors to access chatbots for recreational purposes, and civil penalties provided.",Introduced,Chatbots; Education/Child Protection,2025,2025-2026,2025-11-21T15:49:41.799598+00:00,,2025-12-25 09:30:07
+Minnesota,SF 1857,Minor access to chatbots for recreational purposes by persons prohibition provision,Introduced,Chatbots; Education/Child Protection,2025,2025-2026,2025-11-21T15:36:21.385317+00:00,,2025-12-25 09:30:07
+Missouri,HB 1742,Establishes provisions relating to companion chatbots,Introduced,Chatbots,2025,2026,2025-12-11T00:53:47.588550+00:00,,2025-12-25 09:30:07
+Missouri,HB 1769,"Establishes the ""AI Non-Sentience and Responsibility Act""",Introduced,General AI,2025,2026,2025-12-15T18:50:02.603049+00:00,,2025-12-25 09:30:07
+Missouri,HB 2032,Establishes age verification measures for artificial intelligence chatbots,Introduced,Chatbots,2025,2026,2025-12-01T21:11:10.836998+00:00,,2025-12-25 09:30:07
+Missouri,SB 1183,Creates provisions relating to synthetic media,Introduced,General AI,2025,2026,2025-12-02T22:17:25.761288+00:00,,2025-12-25 09:30:07
+Missouri,SB 1455,Creates provisions relating to artificial intelligence chatbots,Introduced,Chatbots,2025,2026,2025-12-20T01:02:38.532593+00:00,,2025-12-25 09:30:07
+Montana,SB 413,Criminalize disclosure of certain explicit AI-generated media,Introduced,Transparency; Criminal Justice,2025,2025,2025-10-16T11:53:58.148172+00:00,,2025-12-25 09:30:07
+New Hampshire,HB 1280,establishing a commission to study public school open enrollment.,Introduced,Government Use; Education/Child Protection,2025,2026,2025-12-25T09:12:42.986881+00:00,,2025-12-25 09:30:07
+New Hampshire,HB 1406,prohibiting health carriers from using artificial intelligence to change the clinical judgment of a provider.,Introduced,Healthcare,2025,2026,2025-12-25T09:15:34.305526+00:00,,2025-12-25 09:30:07
+New Hampshire,HB 1506,creating an exception to the restricted uses of artificial intelligence by state agencies.,Introduced,General AI,2025,2026,2025-12-25T09:07:35.623990+00:00,,2025-12-25 09:30:07
+New Hampshire,HB 1612,"relative to the use of price-fixing websites, algorithms, or other software by landlords.",Introduced,General AI,2025,2026,2025-12-25T09:10:36.953015+00:00,,2025-12-25 09:30:07
+New Hampshire,HB 1725,relative to the regulation of artificial intelligence technologies.,Introduced,General AI,2025,2026,2025-12-25T09:11:59.333296+00:00,,2025-12-25 09:30:07
+New Hampshire,HB 630,preventing the dissemination of deepfake materials of political candidates before an election.,Introduced,Elections,2025,2025,2025-12-03T03:10:47.176432+00:00,,2025-12-25 09:30:07
+New Hampshire,SB 640,relative to the use of artificial intelligence to provide services requiring a professional license.,Introduced,General AI,2025,2026,2025-12-25T09:10:31.113855+00:00,,2025-12-25 09:30:07
+New York,A 1456,Relates to the use of artificial intelligence for utilization review,Introduced,General AI,2025,2025-2026,2025-11-15T05:54:25.255477+00:00,,2025-12-25 09:30:07
+New York,A 222,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-11-15T06:15:49.387788+00:00,,2025-12-25 09:30:07
+New York,A 6491,Prohibits the creation and dissemination of synthetic media within sixty days of an election with intent to unduly influence the outcome of an election,Introduced,Elections,2025,2025-2026,2025-11-15T05:21:22.660886+00:00,,2025-12-25 09:30:07
+New York,A 7172,Relation to the regulation of the use of artificial intelligence and facial recognition technology in criminal investigations,Introduced,Criminal Justice,2025,2025-2026,2025-11-15T06:09:07.646373+00:00,,2025-12-25 09:30:07
+New York,A 768,"Enacts the ""New York artificial intelligence consumer protection act""",Introduced,General AI,2025,2025-2026,2025-11-15T06:21:58.033544+00:00,,2025-12-25 09:30:07
+New York,A 8295,Relates to automated decision-making by government agencies,Introduced,Government Use,2025,2025-2026,2025-11-15T08:18:25.822303+00:00,,2025-12-25 09:30:07
+New York,A 8595,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-11-15T05:24:44.114873+00:00,,2025-12-25 09:30:07
+New York,A 8884,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-11-15T08:27:24.832179+00:00,,2025-12-25 09:30:07
+New York,A 8962,Enacts the New York fundamental artificial intelligence requirements in (FAIR) news act,Introduced,General AI,2025,2025-2026,2025-12-19T21:50:14.451325+00:00,,2025-12-25 09:30:07
+New York,A 9317,Regulates companion chatbots,Introduced,Chatbots,2025,2025-2026,2025-12-11T01:41:47.993485+00:00,,2025-12-25 09:30:07
+New York,S 1169,Relates to the development and use of certain artificial intelligence systems,Introduced,General AI,2025,2025-2026,2025-11-15T08:04:15.872406+00:00,,2025-12-25 09:30:07
+New York,S 1962,"Enacts the ""New York artificial intelligence consumer protection act""",Introduced,General AI,2025,2025-2026,2025-11-15T06:28:07.904316+00:00,,2025-12-25 09:30:07
+New York,S 5668,"Relates to liability for misleading, incorrect, contradictory or harmful information provided to a user by a chatbot",Introduced,Chatbots; Safety/Liability,2025,2025-2026,2025-11-15T07:03:08.284877+00:00,,2025-12-25 09:30:07
+New York,S 6953,Relates to the training and use of artificial intelligence frontier models,Introduced,General AI,2025,2025-2026,2025-12-20T17:11:54.898620+00:00,,2025-12-25 09:30:07
+New York,S 7599,Relates to automated decision-making by government agencies,Introduced,Government Use,2025,2025-2026,2025-12-20T14:56:02.327059+00:00,,2025-12-25 09:30:07
+New York,S 8331,"Enacts the ""New York artificial intelligence transparency for journalism act""",Introduced,Transparency,2025,2025-2026,2025-11-15T06:17:29.259267+00:00,,2025-12-25 09:30:07
+New York,S 8451,Enacts the New York fundamental artificial intelligence requirements in (FAIR) news act,Introduced,General AI,2025,2025-2026,2025-12-19T21:52:19.456168+00:00,,2025-12-25 09:30:07
+Ohio,HB 185,Regards an individual's persona usage; prohibit certain deepfakes,Introduced,Elections,2025,136,2025-11-13T07:29:45.084258+00:00,,2025-12-25 09:30:07
+Ohio,SCR 14,Urge Congress to reject moratorium on state regulation of AI,Introduced,General AI,2025,136,2025-12-17T19:48:19.009066+00:00,,2025-12-25 09:30:07
+Oklahoma,HB 1916,Artificial intelligence; Responsible Deployment of AI Systems Act; AI Council; AI Regulatory Sandbox Program; Artificial Intelligence Workforce Development Program; effective date.,Introduced,General AI,2025,2026,2025-12-05T03:28:32.334774+00:00,,2025-12-25 09:30:07
+Oklahoma,SB 746,Artificial intelligence; requiring certain disclosure for certain media. Effective date.,Introduced,Transparency,2025,2026,2025-12-05T03:45:38.988532+00:00,,2025-12-25 09:30:07
+Oklahoma,SB 894,Artificial intelligence; prohibiting distribution of certain media and requiring certain disclosures. Effective date.,Introduced,Transparency,2025,2026,2025-12-05T03:27:49.226210+00:00,,2025-12-25 09:30:07
+Pennsylvania,HB 2100,An Act providing for the use of mental health chatbots and artificial intelligence by mental health therapists; imposing duties on the Bureau of Professional and Occupational Affairs; and imposing a penalty.,Introduced,Healthcare; Chatbots,2025,2025-2026,2025-12-16T22:57:34.691227+00:00,,2025-12-25 09:30:07
+Tennessee,HB 1455,"Criminal Offenses - As introduced, creates a Class A felony offense of knowingly training artificial intelligence to encourage the act of suicide or criminal homicide, or act in specific manners, including developing an emotional relationship with an individual or simulating a human being, including in appearance, voice, or other mannerisms. - Amends TCA Title 29; Title 33; Title 39 and Title 47.",Introduced,Criminal Justice,2025,114,2025-12-23T07:06:27.889564+00:00,,2025-12-25 09:30:07
+Tennessee,SB 1493,"Criminal Offenses - As introduced, creates a Class A felony offense of knowingly training artificial intelligence to encourage the act of suicide or criminal homicide, or act in specific manners, including developing an emotional relationship with an individual or simulating a human being, including in appearance, voice, or other mannerisms. - Amends TCA Title 29; Title 33; Title 39 and Title 47.",Introduced,Criminal Justice,2025,114,2025-12-23T06:59:40.598358+00:00,,2025-12-25 09:30:07
+Washington,SB 5870,Establishing civil liability for suicide linked to the use of artificial intelligence systems.,Introduced,Safety/Liability,2025,2025-2026,2025-12-12T03:16:20.715139+00:00,,2025-12-25 09:30:07
