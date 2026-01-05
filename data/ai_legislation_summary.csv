@@ -1,10 +1,10 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
 New York,15,0,0,Chatbots; Chatbots; Safety/Liability; Elections,2025,Some Activity
+Missouri,9,0,0,Chatbots; Education/Child Protection; Safety/Liability; Healthcare,2025,Some Activity
 Massachusetts,7,0,0,Chatbots; Education/Child Protection; Transparency,2025,Some Activity
-Missouri,7,0,0,Chatbots; Education/Child Protection; Safety/Liability; Healthcare,2025,Some Activity
 Washington,4,0,0,Chatbots; Government Use; Education/Child Protection; Criminal Justice; Safety/Liability,2025; 2026,Some Activity
-Florida,3,0,0,Government Use; Education/Child Protection,2025,Some Activity
 Maryland,3,0,0,Elections; Elections; Criminal Justice,2025,Some Activity
+Florida,2,0,0,,2025,Minimal
 Minnesota,2,0,0,Chatbots; Education/Child Protection,2025,Minimal
 New Hampshire,2,0,0,Elections,2025,Minimal
 Oklahoma,2,0,0,Transparency,2025,Minimal
@@ -15,5 +15,6 @@ Iowa,1,0,0,Elections; Transparency,2025,Minimal
 Michigan,1,0,0,Chatbots; Education/Child Protection,2025,Minimal
 Montana,1,0,0,Transparency; Criminal Justice,2025,Minimal
 Nebraska,1,0,0,,2025,Minimal
+New Mexico,1,0,0,Elections,2026,Minimal
 Ohio,1,0,0,Elections,2025,Minimal
 Pennsylvania,1,0,0,Healthcare; Chatbots,2025,Minimal
