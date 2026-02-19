@@ -1,26 +1,22 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-New Jersey,7,0,0,Elections; Elections; Transparency; Elections; Transparency; Criminal Justice,2026,Some Activity
-Washington,7,0,0,Chatbots; Government Use; Education/Child Protection; Criminal Justice; Safety/Liability,2025; 2026,Some Activity
-Illinois,5,0,0,Elections; Safety/Liability,2026,Some Activity
-Missouri,5,0,0,Chatbots; Healthcare,2025; 2026,Some Activity
-Tennessee,4,0,0,Elections; Elections; Criminal Justice,2026,Some Activity
-Virginia,4,0,0,Chatbots; Education/Child Protection; Education/Child Protection; Elections,2026,Some Activity
-Arizona,3,0,0,Education/Child Protection; Government Use; Education/Child Protection; Transparency,2026,Some Activity
-California,3,0,0,Chatbots; Employment; Safety/Liability,2025; 2026,Some Activity
-Maryland,3,0,0,Chatbots; Safety/Liability; Elections,2026,Some Activity
-Massachusetts,3,0,0,Healthcare; Transparency,2025,Some Activity
-Rhode Island,3,0,0,Employment; Healthcare; Safety/Liability,2026,Some Activity
-Florida,2,0,0,,2025; 2026,Minimal
-Iowa,2,0,0,Chatbots,2026,Minimal
-New York,2,0,0,Chatbots; Safety/Liability,2025,Minimal
-Oklahoma,2,0,0,,2026,Minimal
-South Carolina,2,0,0,Chatbots,2026,Minimal
-South Dakota,2,0,0,Chatbots; Chatbots; Education/Child Protection,2026,Minimal
+Tennessee,16,0,0,Criminal Justice; Elections; Elections; Criminal Justice,2025; 2026,Some Activity
+California,11,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Employment,2026,Some Activity
+Iowa,6,0,0,Chatbots; Criminal Justice; Elections,2026,Some Activity
+Illinois,5,0,0,Chatbots; Safety/Liability; Elections,2026,Some Activity
+New Jersey,5,0,0,Elections; Elections; Transparency; Elections; Transparency; Criminal Justice,2026,Some Activity
+New York,5,0,0,Chatbots; Safety/Liability,2025,Some Activity
+Virginia,4,0,0,Chatbots; Education/Child Protection; Chatbots; Safety/Liability; Elections,2026,Some Activity
+Washington,4,0,0,Chatbots,2025; 2026,Some Activity
+Florida,3,0,0,Education/Child Protection,2025; 2026,Some Activity
+Oklahoma,3,0,0,Chatbots; Education/Child Protection; Safety/Liability,2026,Some Activity
+Georgia,2,0,0,Employment; Government Use,2026,Minimal
+Maryland,2,0,0,Chatbots; Safety/Liability; Elections,2026,Minimal
+Rhode Island,2,0,0,Employment,2026,Minimal
 Utah,2,0,0,,2026,Minimal
-Idaho,1,0,0,Chatbots; Safety/Liability,2026,Minimal
-Kentucky,1,0,0,Healthcare; Chatbots,2026,Minimal
-New Hampshire,1,0,0,,2026,Minimal
+Wyoming,2,0,0,Elections; Government Use,2026,Minimal
+Arizona,1,0,0,Education/Child Protection,2026,Minimal
+Idaho,1,0,0,,2026,Minimal
+Massachusetts,1,0,0,Healthcare,2025,Minimal
+Missouri,1,0,0,,2025,Minimal
 Oregon,1,0,0,,2026,Minimal
-Pennsylvania,1,0,0,Elections; Transparency; Government Use,2025,Minimal
 Vermont,1,0,0,Elections,2025,Minimal
-Wyoming,1,0,0,Elections,2026,Minimal
