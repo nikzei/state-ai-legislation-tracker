@@ -1,25 +1,24 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-California,12,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Employment,2026,Some Activity
-Louisiana,9,0,0,Bias/Discrimination; Financial Services; Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
-Illinois,8,0,0,Elections; Safety/Liability,2026,Some Activity
-New York,8,0,0,Bias/Discrimination; Chatbots; Education/Child Protection; Chatbots; Safety/Liability,2025; 2026,Some Activity
-Tennessee,5,0,0,Elections; Safety/Liability; Transparency; Government Use; Education/Child Protection; Safety/Liability,2026,Some Activity
+California,14,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Employment,2026,Some Activity
+Tennessee,10,0,0,Criminal Justice; Elections; Safety/Liability,2025; 2026,Some Activity
+Illinois,8,0,0,Elections; Safety/Liability; Transparency,2025; 2026,Some Activity
+New York,7,0,0,Bias/Discrimination; Chatbots; Education/Child Protection; Chatbots; Safety/Liability,2025; 2026,Some Activity
+New Hampshire,6,0,0,Healthcare,2025; 2026,Some Activity
+Louisiana,4,0,0,Bias/Discrimination; Financial Services; Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
+Iowa,3,0,0,Chatbots,2026,Some Activity
 Maryland,3,0,0,Elections; Elections; Criminal Justice,2026,Some Activity
-Connecticut,2,0,0,Elections; Employment,2026,Minimal
+Oklahoma,3,0,0,Education/Child Protection; Education/Child Protection; Safety/Liability,2025; 2026,Some Activity
+Rhode Island,3,0,0,Employment; Healthcare; Safety/Liability,2026,Some Activity
+Washington,3,0,0,Chatbots,2025; 2026,Some Activity
 Florida,2,0,0,,2025; 2026,Minimal
-Georgia,2,0,0,Transparency; Chatbots; Safety/Liability,2026,Minimal
 Idaho,2,0,0,Chatbots; Safety/Liability; Healthcare,2026,Minimal
-Iowa,2,0,0,Chatbots,2026,Minimal
-Minnesota,2,0,0,Chatbots; Education/Child Protection,2025; 2026,Minimal
 Missouri,2,0,0,Chatbots; Elections; Transparency; Government Use; Criminal Justice,2025,Minimal
 Montana,2,0,0,Transparency; Criminal Justice,2025,Minimal
-Rhode Island,2,0,0,Employment,2026,Minimal
-Washington,2,0,0,Chatbots,2026,Minimal
-Arizona,1,0,0,,2026,Minimal
+Alabama,1,0,0,Healthcare,2026,Minimal
 Colorado,1,0,0,Healthcare,2026,Minimal
-Kentucky,1,0,0,,2026,Minimal
-Michigan,1,0,0,Chatbots; Education/Child Protection,2025,Minimal
+Connecticut,1,0,0,Elections,2026,Minimal
+Georgia,1,0,0,,2026,Minimal
+Minnesota,1,0,0,Chatbots; Education/Child Protection,2025,Minimal
 New Mexico,1,0,0,Elections,2026,Minimal
-Oklahoma,1,0,0,,2026,Minimal
 South Carolina,1,0,0,Chatbots; Education/Child Protection,2026,Minimal
 Utah,1,0,0,,2026,Minimal
