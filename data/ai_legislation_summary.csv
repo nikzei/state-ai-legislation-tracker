@@ -1,12 +1,27 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-New York,7,0,0,Education/Child Protection; Transparency,2025; 2026,Some Activity
-Rhode Island,5,0,0,Employment; Healthcare,2026,Some Activity
-Louisiana,3,0,0,Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
+Montana,12,0,0,Education/Child Protection; Elections; Transparency; Healthcare; Financial Services,2024; 2025,Some Activity
+New York,12,0,0,Chatbots; Chatbots; Safety/Liability; Criminal Justice,2025; 2026,Some Activity
+California,11,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Employment; Government Use,2025; 2026,Some Activity
+Tennessee,6,0,0,Elections; Elections; Criminal Justice; Government Use; Chatbots,2025; 2026,Some Activity
+Louisiana,4,0,0,Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
+Rhode Island,4,0,0,Employment; Healthcare; Healthcare; Safety/Liability,2026,Some Activity
+Florida,3,0,0,,2025; 2026,Some Activity
+Illinois,3,0,0,,2026,Some Activity
 Maryland,3,0,0,Elections; Elections; Criminal Justice,2026,Some Activity
-Tennessee,3,0,0,Elections; Elections; Criminal Justice,2026,Some Activity
+Arizona,2,0,0,Education/Child Protection; Transparency,2026,Minimal
+Michigan,2,0,0,Chatbots; Education/Child Protection,2025; 2026,Minimal
+North Carolina,2,0,0,Safety/Liability,2025; 2026,Minimal
+Pennsylvania,2,0,0,Elections; Healthcare; Financial Services; Safety/Liability,2026,Minimal
+Washington,2,0,0,Chatbots,2026,Minimal
 Alaska,1,0,0,Elections; Transparency,2025,Minimal
-California,1,0,0,Employment,2026,Minimal
+Colorado,1,0,0,Healthcare,2026,Minimal
+Delaware,1,0,0,Education/Child Protection,2026,Minimal
+Iowa,1,0,0,Elections,2026,Minimal
+Kansas,1,0,0,Chatbots; Education/Child Protection; Safety/Liability,2026,Minimal
+Kentucky,1,0,0,Healthcare; Chatbots,2026,Minimal
 Nebraska,1,0,0,Elections; Transparency,2025,Minimal
 New Hampshire,1,0,0,,2025,Minimal
-North Carolina,1,0,0,,2026,Minimal
-Oklahoma,1,0,0,,2026,Minimal
+New Jersey,1,0,0,Elections; Transparency; Chatbots,2026,Minimal
+Puerto Rico,1,0,0,Chatbots,2026,Minimal
+South Carolina,1,0,0,Chatbots; Education/Child Protection,2026,Minimal
+Vermont,1,0,0,Elections,2025,Minimal
