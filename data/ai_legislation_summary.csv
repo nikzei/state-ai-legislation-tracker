@@ -1,22 +1,12 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-Illinois,24,0,0,Chatbots; Safety/Liability; Elections; Government Use,2025; 2026,Some Activity
-California,11,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Employment,2025; 2026,Some Activity
-Vermont,7,0,0,Chatbots; Elections; Healthcare,2025; 2026,Some Activity
-Florida,5,0,0,Government Use; Government Use; Education/Child Protection,2025; 2026,Some Activity
-Louisiana,4,0,0,Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
-New Hampshire,4,0,0,Healthcare,2025; 2026,Some Activity
-New York,4,0,0,Criminal Justice,2025; 2026,Some Activity
-Montana,3,0,0,Elections; Transparency; Transparency; Criminal Justice,2024; 2025,Some Activity
-Missouri,2,0,0,Elections; Transparency; Government Use; Criminal Justice; Government Use; Safety/Liability,2025,Minimal
-Washington,2,0,0,Chatbots,2026,Minimal
-Alaska,1,0,0,Elections; Transparency,2025,Minimal
-Arizona,1,0,0,Education/Child Protection,2026,Minimal
-Connecticut,1,0,0,Elections,2026,Minimal
+Massachusetts,16,0,0,Bias/Discrimination; Chatbots; Education/Child Protection,2025,Some Activity
+California,13,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Elections,2025; 2026,Some Activity
+Hawaii,11,0,0,Bias/Discrimination; Education/Child Protection,2026,Some Activity
+Louisiana,7,0,0,Elections; Education/Child Protection; Elections; Safety/Liability; Healthcare; Chatbots,2026,Some Activity
+Illinois,5,0,0,Elections,2025; 2026,Some Activity
+Florida,2,0,0,,2025; 2026,Minimal
 Georgia,1,0,0,Elections; Government Use,2026,Minimal
-Maryland,1,0,0,Elections,2026,Minimal
-Michigan,1,0,0,Employment,2026,Minimal
-Minnesota,1,0,0,Chatbots; Safety/Liability,2026,Minimal
-New Jersey,1,0,0,,2026,Minimal
+Missouri,1,0,0,Elections; Transparency; Government Use; Criminal Justice,2025,Minimal
+New Hampshire,1,0,0,,2026,Minimal
 North Carolina,1,0,0,,2025,Minimal
-Puerto Rico,1,0,0,,2025,Minimal
-South Carolina,1,0,0,Chatbots; Education/Child Protection,2026,Minimal
+Wisconsin,1,0,0,Education/Child Protection,2026,Minimal
