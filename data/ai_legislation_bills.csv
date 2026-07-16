@@ -1,67 +1,89 @@
 State,Bill_ID,Title,Status,Category,Year,Session,Updated,URL,Last_Checked
-California,SB 1119,Companion chatbots: children's safety.,Introduced,Chatbots; Education/Child Protection; Safety/Liability,2026,20252026,2026-07-10T06:00:38.464878+00:00,,2026-07-13 12:13:36
-Florida,HB 1395,Artificial Intelligence,Introduced,General AI,2026,2026,2026-07-02T22:34:51.304082+00:00,,2026-07-13 12:13:36
-Florida,SB 2D,Artificial Intelligence Bill of Rights,Introduced,General AI,2026,2026D,2026-05-01T00:19:42.965933+00:00,,2026-07-13 12:13:36
-Hawaii,HB 1782,RELATING TO ARTIFICIAL INTELLIGENCE FOR THE PROTECTION OF MINORS.,Introduced,Education/Child Protection,2026,2026,2026-07-10T06:08:25.804555+00:00,,2026-07-13 12:13:36
-Hawaii,HB 2137,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-10T05:57:03.659425+00:00,,2026-07-13 12:13:36
-Hawaii,HB 2502,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-10T07:16:23.879699+00:00,,2026-07-13 12:13:36
-Hawaii,HB 2591,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-10T06:03:59.099448+00:00,,2026-07-13 12:13:36
-Hawaii,HB 2597,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-10T06:11:28.985817+00:00,,2026-07-13 12:13:36
-Hawaii,HB 639,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-10T06:26:24.510903+00:00,,2026-07-13 12:13:36
-Hawaii,HCR 192,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-10T07:20:17.512650+00:00,,2026-07-13 12:13:36
-Hawaii,HR 182,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-10T07:18:11.105540+00:00,,2026-07-13 12:13:36
-Hawaii,SB 1156,RELATING TO DEEPFAKES.,Introduced,Elections,2026,2026,2026-07-10T07:14:15.936465+00:00,,2026-07-13 12:13:36
-Hawaii,SB 2788,RELATING TO ARTIFICIAL INTELLIGENCE FOR THE PROTECTION OF MINORS.,Introduced,Education/Child Protection,2026,2026,2026-07-10T07:09:48.650488+00:00,,2026-07-13 12:13:36
-Hawaii,SB 3001,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-10T06:32:34.580004+00:00,,2026-07-13 12:13:36
-Hawaii,SB 640,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-10T07:21:46.874685+00:00,,2026-07-13 12:13:36
-Hawaii,SCR 184,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-10T06:05:25.786540+00:00,,2026-07-13 12:13:36
-Hawaii,SR 165,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-10T06:06:26.867806+00:00,,2026-07-13 12:13:36
-Idaho,H 727,SEX CRIMES – Amends existing law to revise a provision regarding video voyeurism and to revise a penalty for disclosing explicit synthetic media.,Introduced,General AI,2026,2026,2026-07-11T12:46:12.804251+00:00,,2026-07-13 12:13:36
-Idaho,H 945,ARTIFICIAL INTELLIGENCE MEDICAL SERVICES – Adds to existing law to establish provisions regarding artifical intelligence medical services.,Introduced,Healthcare,2026,2026,2026-07-09T12:40:03.234931+00:00,,2026-07-13 12:13:36
-Idaho,S 1227,EDUCATION – Adds to existing law to establish provisions regarding generative artificial intelligence in public education.,Introduced,Government Use; Education/Child Protection,2026,2026,2026-07-11T12:40:28.165008+00:00,,2026-07-13 12:13:36
-Idaho,S 1297,ARTIFICIAL INTELLIGENCE – Adds to existing law to establish the Conversational AI Safety Act.,Introduced,Chatbots; Safety/Liability,2026,2026,2026-07-11T12:39:15.568275+00:00,,2026-07-13 12:13:36
-Illinois,HB 4705,ARTIFICIAL INTELLIGENCE SAFETY,Introduced,Safety/Liability,2026,104th,2026-07-11T08:38:12.409034+00:00,,2026-07-13 12:13:36
-Illinois,HB 4717,ALGORITHMIC PRICING DISCLOSURE,Introduced,Transparency,2026,104th,2026-07-11T09:30:13.363847+00:00,,2026-07-13 12:13:36
-Illinois,HB 4799,AI SAFETY MEASURES ACT,Introduced,Safety/Liability,2026,104th,2026-07-11T08:57:57.440557+00:00,,2026-07-13 12:13:36
-Illinois,HB 4804,REGISTERED NURSE USE OF AI,Introduced,General AI,2026,104th,2026-07-11T09:22:42.604213+00:00,,2026-07-13 12:13:36
-Illinois,HB 4980,HUMAN CONTROL OF AI ACT,Introduced,General AI,2026,104th,2026-07-11T08:54:33.433342+00:00,,2026-07-13 12:13:36
-Illinois,HB 5044,CHATBOT PROVIDER-LIABILITY,Introduced,Chatbots; Safety/Liability,2026,104th,2026-07-11T09:20:20.501326+00:00,,2026-07-13 12:13:36
-Illinois,HB 5106,CRIM CD-DEEPFAKE-HARASS,Introduced,Elections,2026,104th,2026-07-11T09:00:23.832460+00:00,,2026-07-13 12:13:36
-Illinois,HB 5113,SCH CD-AI USE IN EDUC COMM,Introduced,General AI,2026,104th,2026-07-11T09:31:01.980497+00:00,,2026-07-13 12:13:36
-Illinois,HB 5756,ALGORITHMIC PRICING DISCLOSURE,Introduced,Transparency,2026,104th,2026-07-11T09:26:07.154822+00:00,,2026-07-13 12:13:36
-Illinois,HB 5760,AI WORK TRANSITION COMMISSION,Introduced,General AI,2026,104th,2026-07-11T08:38:14.591772+00:00,,2026-07-13 12:13:36
-Illinois,HB 5761,$DCEO-AI WORKFORCE TRANSITION,Introduced,General AI,2026,104th,2026-07-11T09:09:41.701776+00:00,,2026-07-13 12:13:36
-Illinois,SB 3180,AI DATA PRIVACY ACT,Introduced,Privacy,2026,104th,2026-07-11T03:56:31.738322+00:00,,2026-07-13 12:13:36
-Illinois,SB 3261,ARTIFICIAL INTELLIGENCE SAFETY,Introduced,Safety/Liability,2026,104th,2026-07-11T03:41:46.081720+00:00,,2026-07-13 12:13:36
-Illinois,SB 3368,CHATBOT RESPONSE LIABILITY ACT,Introduced,Chatbots; Safety/Liability,2026,104th,2026-07-11T03:55:22.281745+00:00,,2026-07-13 12:13:36
-Illinois,SB 3702,REGISTERED NURSE USE OF AI,Introduced,General AI,2026,104th,2026-07-11T03:29:35.018669+00:00,,2026-07-13 12:13:36
-Louisiana,HB 734,COMMERCE: Creates a consumer bill of rights regarding artificial intelligence,Introduced,General AI,2026,2026,2026-07-07T08:30:53.669900+00:00,,2026-07-13 12:13:36
-Louisiana,SB 346,SCHOOLS: Prohibits the use of deepfake material against students enrolled in K-12. (8/1/26),Introduced,Elections; Education/Child Protection,2026,2026,2026-07-07T09:08:45.694190+00:00,,2026-07-13 12:13:36
-New Hampshire,SB 657,relative to the use of information technology and artificial intelligence systems by state agencies.,Introduced,General AI,2026,2026,2026-07-12T10:50:20.062526+00:00,,2026-07-13 12:13:36
-Pennsylvania,HB 2314,An Act providing for a public education campaign focused on educating the public about artificial intelligence and improving AI consumer literacy.,Introduced,Elections; Government Use; Education/Child Protection,2026,2025-2026,2026-07-12T02:08:54.415450+00:00,,2026-07-13 12:13:36
-Utah,HB 276,Artificial Intelligence Modifications,Introduced,General AI,2026,2026,2026-07-09T15:12:14.748865+00:00,,2026-07-13 12:13:36
-Utah,HB 286,Artificial Intelligence Transparency Amendments,Introduced,Transparency,2026,2026,2026-07-09T15:40:18.006547+00:00,,2026-07-13 12:13:36
-Washington,HB 2225,Concerning regulation of artificial intelligence companion chatbots.,Introduced,Chatbots,2026,2025-2026,2026-07-09T12:37:43.497724+00:00,,2026-07-13 12:13:36
-Washington,HB 2667,Providing consumer protections for artificial intelligence systems.,Introduced,General AI,2026,2025-2026,2026-07-09T12:01:08.996482+00:00,,2026-07-13 12:13:36
-Washington,SB 5984,Concerning regulation of artificial intelligence companion chatbots.,Introduced,Chatbots,2026,2025-2026,2026-07-09T12:09:58.835470+00:00,,2026-07-13 12:13:36
-Washington,SB 6284,Providing consumer protections for artificial intelligence systems.,Introduced,General AI,2026,2025-2026,2026-07-09T12:03:14.338853+00:00,,2026-07-13 12:13:36
-California,AB 621,Deepfake pornography.,Introduced,Elections,2025,20252026,2026-07-09T05:52:06.803907+00:00,,2026-07-13 12:13:36
-Florida,SB 482,Artificial Intelligence Bill of Rights,Introduced,General AI,2025,2026,2026-07-02T22:32:34.419389+00:00,,2026-07-13 12:13:36
-Illinois,HB 1427,ALGORITHMICS PROHIBITED-RENT,Introduced,General AI,2025,104th,2026-07-11T09:07:14.645142+00:00,,2026-07-13 12:13:36
-Illinois,HB 1859,COM COL-COURSE INSTRUCTOR-AI,Introduced,General AI,2025,104th,2026-07-11T08:30:13.364477+00:00,,2026-07-13 12:13:36
-Illinois,HB 2655,BD HIGHER ED-AI ED REPORT,Introduced,General AI,2025,104th,2026-07-11T08:46:14.937996+00:00,,2026-07-13 12:13:36
-Illinois,HB 2814,USE/OCC TAX-HEARING AIDS,Introduced,General AI,2025,104th,2026-07-11T09:15:45.949570+00:00,,2026-07-13 12:13:36
-Illinois,HB 3021,CONSUMER FRAUD-AI DECEPTION,Introduced,General AI,2025,104th,2026-07-11T09:10:28.007500+00:00,,2026-07-13 12:13:36
-Illinois,HB 35,AI USE IN HEALTH INSURANCE ACT,Introduced,Healthcare; Financial Services,2025,104th,2026-07-11T08:30:45.780405+00:00,,2026-07-13 12:13:36
-Illinois,HB 3529,AI PRINCIPLES,Introduced,General AI,2025,104th,2026-07-11T08:49:55.713464+00:00,,2026-07-13 12:13:36
-Illinois,HB 3646,DOIT-AI TASK FORCE,Introduced,General AI,2025,104th,2026-07-11T09:26:35.393984+00:00,,2026-07-13 12:13:36
-Illinois,HB 4205,USE/OCC TAX-HEARING AIDS,Introduced,General AI,2025,104th,2026-07-11T09:00:55.970435+00:00,,2026-07-13 12:13:36
-Illinois,HB 4248,ALGORITHMIC PRICE TRANSPARENCY,Introduced,Transparency,2025,104th,2026-07-11T09:31:24.777163+00:00,,2026-07-13 12:13:36
-Massachusetts,H 94,An Act to ensure accountability and transparency in artificial intelligence systems,Introduced,Transparency,2025,194th,2026-07-09T14:09:55.154304+00:00,,2026-07-13 12:13:36
-Massachusetts,S 243,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2026-07-09T07:23:08.853331+00:00,,2026-07-13 12:13:36
-New Hampshire,HB 1406,"relative to health carrier recordkeeping requirements in utilization review, including specifications regarding the use of artificial intelligence.",Introduced,Healthcare,2025,2026,2026-07-13T10:49:48.824742+00:00,,2026-07-13 12:13:36
-New Hampshire,HB 1506,creating an exception to the restricted uses of artificial intelligence by state agencies.,Introduced,General AI,2025,2026,2026-07-12T16:47:39.623302+00:00,,2026-07-13 12:13:36
-New Hampshire,HB 1612,"relative to the use of price-fixing websites, algorithms, or other software by landlords.",Introduced,General AI,2025,2026,2026-07-12T16:45:58.928194+00:00,,2026-07-13 12:13:36
-New Hampshire,HB 1725,relative to the regulation of artificial intelligence technologies.,Introduced,General AI,2025,2026,2026-07-12T16:45:08.832810+00:00,,2026-07-13 12:13:36
-New Hampshire,SB 640,relative to the use of artificial intelligence to provide services requiring a professional license.,Introduced,General AI,2025,2026,2026-07-12T16:54:07.387561+00:00,,2026-07-13 12:13:36
-Washington,HB 1942,Promoting the economic development of innovative uses of artificial intelligence.,Introduced,General AI,2025,2025-2026,2026-07-09T12:38:32.254715+00:00,,2026-07-13 12:13:36
+California,SB 1119,Companion chatbots: children's safety.,Introduced,Chatbots; Education/Child Protection; Safety/Liability,2026,20252026,2026-07-10T06:00:38.464878+00:00,,2026-07-16 11:08:45
+California,SB 867,Toys: companion chatbots.,Introduced,Chatbots,2026,20252026,2026-07-14T06:55:36.547319+00:00,,2026-07-16 11:08:45
+Florida,HB 1395,Artificial Intelligence,Introduced,General AI,2026,2026,2026-07-02T22:34:51.304082+00:00,,2026-07-16 11:08:45
+Florida,SB 2D,Artificial Intelligence Bill of Rights,Introduced,General AI,2026,2026D,2026-05-01T00:19:42.965933+00:00,,2026-07-16 11:08:45
+Hawaii,HB 1782,RELATING TO ARTIFICIAL INTELLIGENCE FOR THE PROTECTION OF MINORS.,Introduced,Education/Child Protection,2026,2026,2026-07-15T07:03:54.728891+00:00,,2026-07-16 11:08:45
+Hawaii,HB 1887,RELATING TO ARTIFICIAL INTELLIGENCE LITERACY EDUCATION.,Introduced,Education/Child Protection,2026,2026,2026-07-15T07:06:00.948544+00:00,,2026-07-16 11:08:45
+Hawaii,HB 2137,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:33:09.190082+00:00,,2026-07-16 11:08:45
+Hawaii,HB 2500,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:40:29.320840+00:00,,2026-07-16 11:08:45
+Hawaii,HB 2502,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:12:15.441181+00:00,,2026-07-16 11:08:45
+Hawaii,HB 2591,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:36:41.257327+00:00,,2026-07-16 11:08:45
+Hawaii,HB 2597,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:38:50.909318+00:00,,2026-07-16 11:08:45
+Hawaii,HB 639,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:04:30.145342+00:00,,2026-07-16 11:08:45
+Hawaii,HCR 192,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-15T07:04:15.403676+00:00,,2026-07-16 11:08:45
+Hawaii,HR 182,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-15T06:51:35.262673+00:00,,2026-07-16 11:08:45
+Hawaii,SB 1156,RELATING TO DEEPFAKES.,Introduced,Elections,2026,2026,2026-07-15T06:04:38.763897+00:00,,2026-07-16 11:08:45
+Hawaii,SB 1622,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:47:12.376459+00:00,,2026-07-16 11:08:45
+Hawaii,SB 2585,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:51:59.747477+00:00,,2026-07-16 11:08:45
+Hawaii,SB 2788,RELATING TO ARTIFICIAL INTELLIGENCE FOR THE PROTECTION OF MINORS.,Introduced,Education/Child Protection,2026,2026,2026-07-15T07:12:27.651630+00:00,,2026-07-16 11:08:45
+Hawaii,SB 2967,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:37:23.408888+00:00,,2026-07-16 11:08:45
+Hawaii,SB 3001,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T07:04:42.469744+00:00,,2026-07-16 11:08:45
+Hawaii,SB 487,RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.,Introduced,General AI,2026,2026,2026-07-15T06:46:43.862290+00:00,,2026-07-16 11:08:45
+Hawaii,SB 640,RELATING TO ARTIFICIAL INTELLIGENCE.,Introduced,General AI,2026,2026,2026-07-15T06:20:58.206039+00:00,,2026-07-16 11:08:45
+Hawaii,SCR 184,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-15T06:42:17.473006+00:00,,2026-07-16 11:08:45
+Hawaii,SR 165,REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.,Introduced,Bias/Discrimination,2026,2026,2026-07-15T06:31:21.898333+00:00,,2026-07-16 11:08:45
+Hawaii,SR 32,REQUESTING THE DEPARTMENT OF EDUCATION TO DEVELOP ARTIFICIAL INTELLIGENCE LITERACY CURRICULA PLANS AND PROGRAMS FOR USE IN PUBLIC SCHOOLS.,Introduced,Government Use; Education/Child Protection,2026,2026,2026-07-15T06:34:27.230496+00:00,,2026-07-16 11:08:45
+Idaho,H 727,SEX CRIMES – Amends existing law to revise a provision regarding video voyeurism and to revise a penalty for disclosing explicit synthetic media.,Introduced,General AI,2026,2026,2026-07-11T12:46:12.804251+00:00,,2026-07-16 11:08:45
+Idaho,H 945,ARTIFICIAL INTELLIGENCE MEDICAL SERVICES – Adds to existing law to establish provisions regarding artifical intelligence medical services.,Introduced,Healthcare,2026,2026,2026-07-09T12:40:03.234931+00:00,,2026-07-16 11:08:45
+Idaho,S 1297,ARTIFICIAL INTELLIGENCE – Adds to existing law to establish the Conversational AI Safety Act.,Introduced,Chatbots; Safety/Liability,2026,2026,2026-07-11T12:39:15.568275+00:00,,2026-07-16 11:08:45
+Illinois,HB 4705,ARTIFICIAL INTELLIGENCE SAFETY,Introduced,Safety/Liability,2026,104th,2026-07-11T08:38:12.409034+00:00,,2026-07-16 11:08:45
+Illinois,HB 4804,REGISTERED NURSE USE OF AI,Introduced,General AI,2026,104th,2026-07-11T09:22:42.604213+00:00,,2026-07-16 11:08:45
+Illinois,HB 4980,HUMAN CONTROL OF AI ACT,Introduced,General AI,2026,104th,2026-07-11T08:54:33.433342+00:00,,2026-07-16 11:08:45
+Illinois,HB 5044,CHATBOT PROVIDER-LIABILITY,Introduced,Chatbots; Safety/Liability,2026,104th,2026-07-11T09:20:20.501326+00:00,,2026-07-16 11:08:45
+Illinois,HB 5106,CRIM CD-DEEPFAKE-HARASS,Introduced,Elections,2026,104th,2026-07-11T09:00:23.832460+00:00,,2026-07-16 11:08:45
+Illinois,SB 2909,SCH CD-TEACHER EVALUATION-AI,Introduced,General AI,2026,104th,2026-07-16T03:16:30.129412+00:00,,2026-07-16 11:08:45
+Illinois,SB 3261,ARTIFICIAL INTELLIGENCE SAFETY,Introduced,Safety/Liability,2026,104th,2026-07-11T03:41:46.081720+00:00,,2026-07-16 11:08:45
+Illinois,SB 3262,COMPANION AI PROTECTION ACT,Introduced,General AI,2026,104th,2026-07-16T03:39:07.743801+00:00,,2026-07-16 11:08:45
+Illinois,SB 3312,AI SAFETY MEASURES ACT,Introduced,Safety/Liability,2026,104th,2026-07-16T03:16:54.035776+00:00,,2026-07-16 11:08:45
+Illinois,SB 3368,CHATBOT RESPONSE LIABILITY ACT,Introduced,Chatbots; Safety/Liability,2026,104th,2026-07-11T03:55:22.281745+00:00,,2026-07-16 11:08:45
+Illinois,SB 3702,REGISTERED NURSE USE OF AI,Introduced,General AI,2026,104th,2026-07-11T03:29:35.018669+00:00,,2026-07-16 11:08:45
+Louisiana,HB 734,COMMERCE: Creates a consumer bill of rights regarding artificial intelligence,Introduced,General AI,2026,2026,2026-07-07T08:30:53.669900+00:00,,2026-07-16 11:08:45
+Pennsylvania,HB 2705,An Act providing for a report on artificial intelligence in the workforce; and imposing duties on the Department of Labor and Industry and Department of Community and Economic Development.,Introduced,Employment,2026,2025-2026,2026-07-16T02:26:07.077873+00:00,,2026-07-16 11:08:45
+Tennessee,HB 1513,"Election Laws - As enacted, requires political advertisements to include a disclaimer if the advertisements include deepfake elements impersonating or depicting a candidate engaging in activity or speech in which the impersonated or depicted candidate did not in fact engage; makes a violation of such disclaimer requirement a Class C misdemeanor; entitles candidate to damages and equitable relief for violations. - Amends TCA Title 2, Chapter 19.",Introduced,Elections,2026,114,2026-07-16T04:24:40.340877+00:00,,2026-07-16 11:08:45
+Tennessee,HB 1898,"Safety - As introduced, enacts the ""Artificial Intelligence Public Safety and Child Protection Transparency Act."" - Amends TCA Title 4; Title 10, Chapter 7; Title 47; Title 58 and Title 68.",Introduced,Transparency; Government Use; Education/Child Protection; Safety/Liability,2026,114,2026-07-16T04:12:29.771044+00:00,,2026-07-16 11:08:45
+Utah,HB 276,Artificial Intelligence Modifications,Introduced,General AI,2026,2026,2026-07-09T15:12:14.748865+00:00,,2026-07-16 11:08:45
+Washington,HB 2225,Concerning regulation of artificial intelligence companion chatbots.,Introduced,Chatbots,2026,2025-2026,2026-07-09T12:37:43.497724+00:00,,2026-07-16 11:08:45
+Washington,HB 2667,Providing consumer protections for artificial intelligence systems.,Introduced,General AI,2026,2025-2026,2026-07-09T12:01:08.996482+00:00,,2026-07-16 11:08:45
+Washington,SB 5984,Concerning regulation of artificial intelligence companion chatbots.,Introduced,Chatbots,2026,2025-2026,2026-07-09T12:09:58.835470+00:00,,2026-07-16 11:08:45
+Washington,SB 6284,Providing consumer protections for artificial intelligence systems.,Introduced,General AI,2026,2025-2026,2026-07-09T12:03:14.338853+00:00,,2026-07-16 11:08:45
+Wyoming,HB 102,Protecting kids from deepfakes and exploitative images.,Introduced,Elections,2026,2026,2026-07-15T05:55:27.341182+00:00,,2026-07-16 11:08:45
+California,AB 621,Deepfake pornography.,Introduced,Elections,2025,20252026,2026-07-09T05:52:06.803907+00:00,,2026-07-16 11:08:45
+Florida,SB 482,Artificial Intelligence Bill of Rights,Introduced,General AI,2025,2026,2026-07-02T22:32:34.419389+00:00,,2026-07-16 11:08:45
+Illinois,HB 3021,CONSUMER FRAUD-AI DECEPTION,Introduced,General AI,2025,104th,2026-07-11T09:10:28.007500+00:00,,2026-07-16 11:08:45
+Illinois,HB 3529,AI PRINCIPLES,Introduced,General AI,2025,104th,2026-07-11T08:49:55.713464+00:00,,2026-07-16 11:08:45
+Massachusetts,H 94,An Act to ensure accountability and transparency in artificial intelligence systems,Introduced,Transparency,2025,194th,2026-07-09T14:09:55.154304+00:00,,2026-07-16 11:08:45
+Massachusetts,S 243,An Act requiring consumer notification for chatbot systems,Introduced,Chatbots,2025,194th,2026-07-09T07:23:08.853331+00:00,,2026-07-16 11:08:45
+Missouri,SB 1455,"SB 1455 - The act establishes the ""Guidelines for User Age-Verification and Responsible Dialogue Act of 2026"" or the ""GUARD Act"".
+
+	The act provides that it shall be unlawful to design, develop, or make available an artificial intelligence chatbot knowing or with reckless disregard that the chatbot poses certain risks of soliciting minors to engage in sexually explicit conduct or encouraging minors to create or transmit any visual depiction of sexually explicit conduct. Any person who violates this provision shall be fined not more than $100,000 per offense.
+
+	It shall be unlawful to design, develop, or make available an artificial intelligence chatbot knowing or with reckless disregard that the chatbot encourages, promotes, or coerces suicide, self-injury, or imminent physical or sexual violence. Any person who violates this provision shall be fined not more than $100,000 per offense.
+
+	A covered entity, as defined in the act, shall require each individual accessing a chatbot to make a user account in order to use the chatbot. 
+
+	For any chatbot that exists as of August 28, 2026, a covered entity shall freeze the account, require the user to provide age data to restore the account, and using the age data classify each user as a minor or an adult.
+
+	At the time an individual creates a new user account to interact with a chatbot, a covered entity shall request age data from the individual, verify the individual's age using a reasonable age verification process, and classify each user as a minor or an adult using the age data.
+
+	A covered entity shall periodically review previously verified user accounts using a reasonable age verification process.
+
+	A covered entity may contract with a third party to employ reasonable age verification measures as part of the age verification process, as described in the act.
+
+	A covered entity shall establish reasonable measures to protect personal data as described in the act.
+
+	Each artificial intelligence chatbot shall at the start of each conversation with a user at 30-minute intervals disclose to the user that the chatbot is artificial intelligence and not a human being and be programmed to ensure that the chatbot does not claim to be a human being.
+
+	The chatbot shall not represent that the chatbot is a licensed professional, as described in the act, or that the chatbot provides certain professional services, as described in the act. 
+
+	If the age verification process determines that an individual is a minor, a covered entity shall prohibit the minor from accessing any chatbot made available by the covered entity.
+
+	The Attorney General may bring a civil action for violations of the act. Relief is described in the act.
+
+	The act is similar to HCS/HB 2032 (2026). 
+JULIA SHEVELEVA",Introduced,Employment; Chatbots; Education/Child Protection; Safety/Liability,2025,2026,2026-07-14T13:54:50.410559+00:00,,2026-07-16 11:08:45
+New Hampshire,HB 1612,"relative to the use of price-fixing websites, algorithms, or other software by landlords.",Introduced,General AI,2025,2026,2026-07-15T16:56:50.558444+00:00,,2026-07-16 11:08:45
+Pennsylvania,HB 2006,An Act providing for safety regarding artificial intelligence in companionship applications; and imposing a penalty.,Introduced,Safety/Liability,2025,2025-2026,2026-07-16T02:33:00.876619+00:00,,2026-07-16 11:08:45
+Tennessee,HB 849,"Statutes and Codification - As enacted, clarifies that a ""person,"" as used in Tennessee Code Annotated, does not include artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine. - Amends TCA Title 1.",Introduced,General AI,2025,114,2026-07-15T22:01:28.408367+00:00,,2026-07-16 11:08:45
+United States,HR 2152,AI PLAN Act,Introduced,General AI,2025,119,2026-07-16T07:45:43.321238+00:00,,2026-07-16 11:08:45
+Washington,HB 1942,Promoting the economic development of innovative uses of artificial intelligence.,Introduced,General AI,2025,2025-2026,2026-07-09T12:38:32.254715+00:00,,2026-07-16 11:08:45
