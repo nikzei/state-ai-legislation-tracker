@@ -1,14 +1,20 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-California,6,0,0,Government Use; Education/Child Protection; Healthcare; Safety/Liability,2025; 2026,Some Activity
-New Hampshire,5,0,0,Healthcare,2025; 2026,Some Activity
-Hawaii,4,0,0,Bias/Discrimination,2026,Some Activity
+Hawaii,10,0,0,Bias/Discrimination; Education/Child Protection,2026,Some Activity
+Missouri,9,0,0,Chatbots; Healthcare,2025; 2026,Some Activity
+Montana,6,0,0,Elections; Transparency; Government Use; Healthcare; Financial Services,2024; 2025,Some Activity
+California,4,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability,2025; 2026,Some Activity
 Illinois,4,0,0,,2025; 2026,Some Activity
+Washington,4,0,0,Chatbots,2025; 2026,Some Activity
+Arizona,3,0,0,Government Use; Education/Child Protection; Transparency,2026,Some Activity
+Florida,3,0,0,,2025; 2026,Some Activity
+New Hampshire,3,0,0,Healthcare,2025,Some Activity
 New York,3,0,0,Chatbots; Safety/Liability; Education/Child Protection,2026,Some Activity
-Arizona,2,0,0,Government Use; Education/Child Protection,2026,Minimal
-Washington,2,0,0,,2025; 2026,Minimal
+Virginia,3,0,0,Chatbots; Chatbots; Education/Child Protection; Elections,2026,Some Activity
+Massachusetts,2,0,0,Chatbots; Transparency,2025,Minimal
 Idaho,1,0,0,Healthcare,2026,Minimal
-Massachusetts,1,0,0,Transparency,2025,Minimal
-Missouri,1,0,0,Chatbots,2025,Minimal
-New Jersey,1,0,0,,2026,Minimal
+Iowa,1,0,0,Chatbots,2026,Minimal
+Louisiana,1,0,0,,2026,Minimal
 Ohio,1,0,0,,2025,Minimal
-Pennsylvania,1,0,0,Safety/Liability,2025,Minimal
+Pennsylvania,1,0,0,Elections; Government Use; Education/Child Protection,2026,Minimal
+Puerto Rico,1,0,0,Chatbots,2026,Minimal
+Tennessee,1,0,0,Transparency; Government Use; Education/Child Protection; Safety/Liability,2026,Minimal
