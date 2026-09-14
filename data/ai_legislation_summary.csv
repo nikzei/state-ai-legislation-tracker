@@ -1,19 +1,20 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-California,14,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Employment,2025; 2026,Some Activity
+California,11,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability; Employment,2025; 2026,Some Activity
 Hawaii,8,0,0,Bias/Discrimination; Education/Child Protection; Elections,2026,Some Activity
-New York,7,0,0,Chatbots; Safety/Liability; Education/Child Protection; Transparency,2025; 2026,Some Activity
+New Jersey,7,0,0,Bias/Discrimination; Financial Services; Criminal Justice; Employment; Government Use,2026,Some Activity
 Illinois,6,0,0,Safety/Liability; Transparency,2025; 2026,Some Activity
-Louisiana,4,0,0,Elections; Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
+New York,6,0,0,Chatbots; Safety/Liability; Education/Child Protection; Transparency,2025; 2026,Some Activity
 Missouri,4,0,0,Chatbots; Healthcare,2025; 2026,Some Activity
 Washington,4,0,0,Chatbots,2025; 2026,Some Activity
 Florida,3,0,0,,2025; 2026,Some Activity
+Iowa,3,0,0,Chatbots; Elections,2025; 2026,Some Activity
+Louisiana,3,0,0,Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
 Montana,3,0,0,Elections; Transparency; Transparency; Criminal Justice,2024; 2025,Some Activity
 Pennsylvania,3,0,0,Elections; Government Use; Education/Child Protection; Elections; Transparency; Government Use; Employment,2025; 2026,Some Activity
-Puerto Rico,3,0,0,Chatbots,2025; 2026,Some Activity
-Iowa,2,0,0,Chatbots,2026,Minimal
+Virginia,3,0,0,Chatbots; Chatbots; Education/Child Protection,2026,Some Activity
 Massachusetts,2,0,0,Chatbots; Transparency,2025,Minimal
+Puerto Rico,2,0,0,Chatbots,2025; 2026,Minimal
 Tennessee,2,0,0,Elections; Transparency; Government Use; Education/Child Protection; Safety/Liability,2026,Minimal
-Virginia,2,0,0,Chatbots; Chatbots; Education/Child Protection,2026,Minimal
 Idaho,1,0,0,Healthcare,2026,Minimal
 Kentucky,1,0,0,Healthcare; Chatbots,2026,Minimal
 New Hampshire,1,0,0,,2025,Minimal
