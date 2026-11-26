@@ -1,22 +1,9 @@
 State,Total_Bills,Enacted,Active_Pending,Primary_Categories,Years_Active,Framework_Status
-Hawaii,11,0,0,Bias/Discrimination; Elections,2025; 2026,Some Activity
-United States,8,0,0,Education/Child Protection; Healthcare; Government Use; Safety/Liability,2025,Some Activity
-North Carolina,7,0,0,Education/Child Protection; Privacy; Chatbots; Safety/Liability,2025; 2026,Some Activity
-Washington,6,0,0,Chatbots,2025; 2026,Some Activity
-Georgia,5,0,0,Employment; Bias/Discrimination; Privacy; Education/Child Protection; Transparency; Chatbots; Safety/Liability,2025; 2026,Some Activity
-Louisiana,4,0,0,Elections; Education/Child Protection; Elections; Safety/Liability,2026,Some Activity
-Pennsylvania,4,0,0,Elections; Transparency; Government Use; Government Use; Chatbots; Education/Child Protection; Healthcare; Government Use; Financial Services; Safety/Liability,2025; 2026,Some Activity
-Tennessee,4,0,0,Elections; Transparency; Government Use; Education/Child Protection; Safety/Liability,2025; 2026,Some Activity
-California,3,0,0,Chatbots; Chatbots; Education/Child Protection; Safety/Liability,2026,Some Activity
-Illinois,3,0,0,,2026,Some Activity
-Florida,2,0,0,,2025; 2026,Minimal
-Idaho,2,0,0,Chatbots; Safety/Liability; Transparency,2025; 2026,Minimal
-Montana,2,0,0,Transparency; Criminal Justice,2025,Minimal
-Virginia,2,0,0,Chatbots; Chatbots; Education/Child Protection,2026,Minimal
-Maryland,1,0,0,Elections; Criminal Justice,2026,Minimal
+New York,28,0,0,Bias/Discrimination; Chatbots; Chatbots; Safety/Liability,2025; 2026,Some Activity
+Hawaii,14,0,0,Bias/Discrimination; Education/Child Protection; Elections,2026,Some Activity
+Washington,6,0,0,Chatbots; Safety/Liability,2025; 2026,Some Activity
+Ohio,2,0,0,Elections; Employment,2025; 2026,Minimal
+Wisconsin,2,0,0,Education/Child Protection,2026,Minimal
+Louisiana,1,0,0,,2026,Minimal
 Massachusetts,1,0,0,Chatbots,2025,Minimal
-New Jersey,1,0,0,Safety/Liability,2026,Minimal
-New York,1,0,0,,2025,Minimal
-Ohio,1,0,0,Employment,2026,Minimal
-Oregon,1,0,0,,2026,Minimal
-Texas,1,0,0,,2026,Minimal
+South Carolina,1,0,0,Elections,2024,Minimal
